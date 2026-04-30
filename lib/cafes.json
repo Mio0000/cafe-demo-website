@@ -1,0 +1,1106 @@
+{
+  "cathedral-coffee": {
+    "name": "Cathedral Coffee",
+    "tagline": "Coffee by day — wine by night.",
+    "eyebrow": "Melbourne CBD · Cathedral Arcade",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "37 Swanston St",
+      "line2": "Melbourne VIC 3000",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.2,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": "$4.5"
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": "$5.5"
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": "$6.5"
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": "$7"
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": "$5"
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": "$16"
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": "$6"
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": "$12"
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A fantastic local with 438+ happy customers. Great coffee and a warm atmosphere.",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=37%20Swanston%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=80"
+  },
+  "cafe-felice": {
+    "name": "Café Felice",
+    "tagline": "Melbourne's favourite Bourke St breakfast spot.",
+    "eyebrow": "Melbourne CBD · Bourke St",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "461 Bourke St",
+      "line2": "Melbourne VIC 3000",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.6,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": "$4.5"
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": "$5.5"
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": "$6.5"
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": "$7"
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": "$5"
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": "$16"
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": "$6"
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": "$12"
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A fantastic local with 52+ happy customers. Great coffee and a warm atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=461%20Bourke%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800&q=80"
+  },
+  "cafe-issus": {
+    "name": "Cafe Issus",
+    "tagline": "Hidden in the laneways of Melbourne CBD.",
+    "eyebrow": "Melbourne CBD · Centre Pl",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "8 Centre Pl",
+      "line2": "Melbourne VIC 3000",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": "$4.5"
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": "$5.5"
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": "$6.5"
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": "$7"
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": "$5"
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": "$16"
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": "$6"
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": "$12"
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A fantastic local with 618+ happy customers. Great coffee and a warm atmosphere.",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=8%20Centre%20Pl%2C%20Melbourne%20VIC%203000%2C%20Australia&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80"
+  },
+  "coffee-hq": {
+    "name": "Coffee HQ",
+    "tagline": "Fuel for your Melbourne day.",
+    "eyebrow": "Melbourne CBD · Flinders St",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "347 Flinders St",
+      "line2": "Melbourne VIC 3000",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 3.0,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": "$4.5"
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": "$5.5"
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": "$6.5"
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": "$7"
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": "$5"
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": "$16"
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": "$6"
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": "$12"
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A fantastic local with 322+ happy customers. Great coffee and a warm atmosphere.",
+        "rating": 3
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=347%20Flinders%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80"
+  },
+  "three-drops-coffee-sandwich": {
+    "name": "Three Drops Coffee & Sandwich",
+    "tagline": "Three drops. Infinite flavour.",
+    "eyebrow": "Melbourne CBD · Capitol Arcade",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "The Capitol Arcade (behind Starbucks",
+      "line2": "SHOP 3/115 Swanston St",
+      "city": "Melbourne VIC 3000, Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.9,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": "$4.5"
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": "$5.5"
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": "$6.5"
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": "$7"
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": "$5"
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": "$16"
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": "$6"
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": "$12"
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A fantastic local with 536+ happy customers. Great coffee and a warm atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=The%20Capitol%20Arcade%20%28behind%20Starbucks%2C%20SHOP%203/115%20Swanston%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800&q=80"
+  },
+  "lemon-bite-cafe": {
+    "name": "Lemon Bite Cafe",
+    "tagline": "A bright bite in the heart of the city.",
+    "eyebrow": "Melbourne CBD · La Trobe St",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "Lower Ground Cnr LaTrobe and",
+      "line2": "Swanston St",
+      "city": "Melbourne VIC 3000, Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 3.5,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": "$4.5"
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": "$5.5"
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": "$6.5"
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": "$7"
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": "$5"
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": "$16"
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": "$6"
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": "$12"
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A fantastic local with 38+ happy customers. Great coffee and a warm atmosphere.",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=Lower%20Ground%20Cnr%20LaTrobe%20and%2C%20Swanston%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80"
+  },
+  "culpa-espresso-cafe": {
+    "name": "Culpa Espresso Cafe",
+    "tagline": "No apologies. Just great espresso.",
+    "eyebrow": "Melbourne CBD · Bourke St",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "222 Bourke St",
+      "line2": "Melbourne VIC 3000",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": "$4.5"
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": "$5.5"
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": "$6.5"
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": "$7"
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": "$5"
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": "$16"
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": "$6"
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": "$12"
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A fantastic local with 30+ happy customers. Great coffee and a warm atmosphere.",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=222%20Bourke%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80"
+  },
+  "the-vine-coffee-roasters": {
+    "name": "The Vine Coffee Roasters",
+    "tagline": "Where every cup tells a story.",
+    "eyebrow": "Melbourne CBD · Swanston St",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "445 Swanston St",
+      "line2": "Melbourne VIC 3000",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 3.4,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": "$4.5"
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": "$5.5"
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": "$6.5"
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": "$7"
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": "$5"
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": "$16"
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": "$6"
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": "$12"
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A fantastic local with 73+ happy customers. Great coffee and a warm atmosphere.",
+        "rating": 3
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=445%20Swanston%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=800&q=80"
+  },
+  "furu-furu-coffee-room": {
+    "name": "Furu Furu Coffee Room",
+    "tagline": "ふるふると、豊かなひととき。",
+    "eyebrow": "広島市中区 · 三川町",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "4-5 Mikawachō",
+      "line2": "Naka Ward",
+      "city": "Hiroshima, 730-0029, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": "¥500"
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": "¥600"
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": "¥650"
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": "¥700"
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": "¥400"
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": "¥500"
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": "¥450"
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": "¥600"
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。226件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=4-5%20Mikawach%C5%8D%2C%20Naka%20Ward%2C%20Hiroshima%2C%20730-0029%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80"
+  },
+  "fandango-banh-mi-vietnamese-restaurant": {
+    "name": "Fandango Banh Mi - Vietnamese Restaurant",
+    "tagline": "Vietnamese flavours, Melbourne soul.",
+    "eyebrow": "North Melbourne · Errol St",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "97 Errol St",
+      "line2": "North Melbourne VIC 3051",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.6,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": "$4.5"
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": "$5.5"
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": "$6.5"
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": "$7"
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": "$5"
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": "$16"
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": "$6"
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": "$12"
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A fantastic local with 401+ happy customers. Great coffee and a warm atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=97%20Errol%20St%2C%20North%20Melbourne%20VIC%203051%2C%20Australia&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80"
+  },
+  "towada": {
+    "name": "Towada",
+    "tagline": "静かな時間と、一杯のコーヒー。",
+    "eyebrow": "広島市中区 · 藤見町",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "4-5 Fujimichō",
+      "line2": "Naka Ward",
+      "city": "Hiroshima, 730-0043, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.1,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": "¥500"
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": "¥600"
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": "¥650"
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": "¥700"
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": "¥400"
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": "¥500"
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": "¥450"
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": "¥600"
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。800件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=4-5%20Fujimich%C5%8D%2C%20Naka%20Ward%2C%20Hiroshima%2C%20730-0043%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=800&q=80"
+  },
+  "cafe-tre-sette": {
+    "name": "Cafe Tre Sette",
+    "tagline": "Italian heart, Carlton soul.",
+    "eyebrow": "Carlton · Bouverie St",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "139 Bouverie St",
+      "line2": "Carlton VIC 3053",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.8,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": "$4.5"
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": "$5.5"
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": "$6.5"
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": "$7"
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": "$5"
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": "$16"
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": "$6"
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": "$12"
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A fantastic local with 122+ happy customers. Great coffee and a warm atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=139%20Bouverie%20St%2C%20Carlton%20VIC%203053%2C%20Australia&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=800&q=80"
+  }
+}
