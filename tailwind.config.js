@@ -18,7 +18,7 @@ module.exports = {
       },
       fontFamily: {
         serif: ["Playfair Display", "Georgia", "serif"],
-        sans: ["Inter", "system-ui", "sans-serif"],
+        sans: ["Playfair Display", "Georgia", "serif"],
       },
       backgroundImage: {
         "leadlight-gradient":
