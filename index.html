@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAFÉ SOLEIL</title>
+
+  <!-- ===== 差し替え設定 START ===== -->
+  <!-- 店名・基本情報はここで一括変更できます -->
+
+  <script>
+    window.CAFE_CONFIG = {
+      name:        "CAFÉ SOLEIL",           // 店名
+      tagline:     "ゆっくりと、豊かな時間を。",  // キャッチコピー
+      concept:     "厳選した豆を、その日の気候と湿度に合わせて丁寧に淹れる。\nシンプルだからこそ生まれる、深い味わい。\n日常の中に、ひとつの贅沢を。",
+      address:     "東京都渋谷区神宮前 1-1-1",
+      hours:       "9:00 – 19:00（月曜定休）",
+      phone:       "03-XXXX-XXXX",
+      instagram:   "cafe.soleil",
+      contactUrl:  "https://lin.ee/example",  // LINE / 予約フォームのURL
+      googleMapSrc: "https://maps.google.com/maps?q=渋谷&output=embed&z=15",
+      heroImage:   "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1600&auto=format&fit=crop&q=80",
+      menu: [
+        { category: "COFFEE", items: [
+          { name: "Espresso",        desc: "ブラジル・エチオピアのブレンド",       price: "¥550" },
+          { name: "Café Latte",      desc: "マイクロフォームのなめらかな口当たり", price: "¥680" },
+          { name: "Pour Over",       desc: "シングルオリジン・本日の豆",           price: "¥750" },
+          { name: "Matcha Latte",    desc: "京都産宇治抹茶",                       price: "¥700" },
+        ]},
+        { category: "FOOD", items: [
+          { name: "クロワッサン",     desc: "フランスバター使用・当日焼き",         price: "¥420" },
+          { name: "スコーン",         desc: "クロテッドクリーム添え",               price: "¥480" },
+          { name: "バスクチーズケーキ", desc: "濃厚でなめらかな食感",              price: "¥680" },
+          { name: "フルーツタルト",   desc: "季節のフルーツを使用",                 price: "¥750" },
+        ]},
+      ],
+      gallery: [
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1516743619420-154b70a65fea?w=600&auto=format&fit=crop&q=80",
+      ],
+    };
+  </script>
+  <!-- ===== 差し替え設定 END ===== -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream:  "#FAF7F2",
+            latte:  "#C8A97E",
+            espresso: "#2C1A0E",
+          },
+          fontFamily: {
+            serif: ["Playfair Display", "Georgia", "serif"],
+            sans:  ["Inter", "Hiragino Sans", "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background-color: #FAF7F2; }
+    /* ヒーロー文字に薄いテキストシャドウ */
+    .hero-text { text-shadow: 0 2px 24px rgba(0,0,0,0.45); }
+    /* ギャラリーホバー */
+    .gallery-item:hover img { transform: scale(1.06); }
+    .gallery-item img { transition: transform 0.5s ease; }
+    /* モバイル固定ボタンの下余白 */
+    @media (max-width: 767px) { .mobile-bottom-pad { padding-bottom: 80px; } }
+  </style>
+</head>
+<body class="font-sans text-espresso antialiased">
+
+<div id="root"></div>
+
+<script type="text/babel">
+const { useState, useEffect } = React;
+const C = window.CAFE_CONFIG;
+
+/* ── ナビゲーション ── */
+function Nav() {
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const fn = () => setScrolled(window.scrollY > 60);
+    window.addEventListener("scroll", fn);
+    return () => window.removeEventListener("scroll", fn);
+  }, []);
+
+  return (
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      scrolled ? "bg-cream/95 backdrop-blur shadow-sm" : "bg-transparent"
+    }`}>
+      <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="#hero" className={`font-serif text-xl tracking-widest font-semibold transition-colors ${
+          scrolled ? "text-espresso" : "text-white"
+        }`}>{C.name}</a>
+        <div className={`hidden md:flex gap-8 text-xs tracking-widest uppercase transition-colors ${
+          scrolled ? "text-espresso" : "text-white/90"
+        }`}>
+          {["concept","menu","gallery","access"].map(id => (
+            <a key={id} href={`#${id}`} className="hover:text-latte transition-colors">{id}</a>
+          ))}
+        </div>
+        <a href={C.contactUrl}
+           className={`text-xs tracking-widest border px-4 py-2 transition-all ${
+             scrolled
+               ? "border-espresso text-espresso hover:bg-espresso hover:text-cream"
+               : "border-white/80 text-white hover:bg-white hover:text-espresso"
+           }`}>
+          RESERVE
+        </a>
+      </div>
+    </nav>
+  );
+}
+
+/* ── ヒーロー ── */
+function Hero() {
+  return (
+    <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">
+      <img src={C.heroImage} alt="cafe interior"
+           className="absolute inset-0 w-full h-full object-cover object-center" />
+      <div className="absolute inset-0 bg-espresso/50" />
+      <div className="relative text-center text-white px-6 hero-text">
+        <p className="text-xs tracking-[0.4em] uppercase mb-5 text-white/70">— Welcome to —</p>
+        <h1 className="font-serif text-6xl md:text-8xl font-semibold tracking-wider mb-5">{C.name}</h1>
+        <p className="text-sm md:text-base tracking-[0.2em] text-white/85">{C.tagline}</p>
+        <a href="#concept"
+           className="inline-block mt-10 border border-white/60 text-white/80 text-xs tracking-widest px-8 py-3 hover:bg-white hover:text-espresso transition-all duration-300">
+          EXPLORE
+        </a>
+      </div>
+      {/* スクロールインジケーター */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-white/50">
+        <span className="text-[10px] tracking-widest">SCROLL</span>
+        <div className="w-px h-8 bg-white/30 animate-pulse" />
+      </div>
+    </section>
+  );
+}
+
+/* ── コンセプト ── */
+function Concept() {
+  return (
+    <section id="concept" className="py-28 px-6">
+      <div className="max-w-2xl mx-auto text-center">
+        <p className="text-xs tracking-[0.4em] text-latte uppercase mb-6">Our Concept</p>
+        <h2 className="font-serif text-4xl md:text-5xl mb-10 leading-tight">
+          A cup of<br /><em>mindful ritual.</em>
+        </h2>
+        <p className="text-sm md:text-base leading-relaxed text-espresso/70 whitespace-pre-line">
+          {C.concept}
+        </p>
+        <div className="mt-12 flex justify-center gap-12 text-center">
+          {[
+            { num: "12+", label: "Specialty Origins" },
+            { num: "5",   label: "Years of Craft" },
+            { num: "∞",   label: "Moments Created" },
+          ].map(({ num, label }) => (
+            <div key={label}>
+              <p className="font-serif text-3xl text-latte">{num}</p>
+              <p className="text-xs tracking-widest text-espresso/50 mt-1">{label}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── メニュー ── */
+function Menu() {
+  return (
+    <section id="menu" className="bg-espresso py-28 px-6">
+      <div className="max-w-3xl mx-auto">
+        <div className="text-center mb-16">
+          <p className="text-xs tracking-[0.4em] text-latte uppercase mb-4">Our Menu</p>
+          <h2 className="font-serif text-4xl text-cream">Selection</h2>
+        </div>
+        <div className="grid md:grid-cols-2 gap-12">
+          {C.menu.map(cat => (
+            <div key={cat.category}>
+              <p className="text-xs tracking-[0.3em] text-latte border-b border-white/10 pb-3 mb-6">{cat.category}</p>
+              {cat.items.map(item => (
+                <div key={item.name} className="flex justify-between items-start mb-5">
+                  <div>
+                    <p className="text-cream text-sm font-medium">{item.name}</p>
+                    <p className="text-white/40 text-xs mt-0.5">{item.desc}</p>
+                  </div>
+                  <p className="text-latte text-sm font-light ml-4 shrink-0">{item.price}</p>
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+        <p className="text-center text-white/30 text-xs tracking-widest mt-12">* メニューは季節により変更になる場合があります</p>
+      </div>
+    </section>
+  );
+}
+
+/* ── Instagramギャラリー ── */
+function Gallery() {
+  return (
+    <section id="gallery" className="py-28 px-6">
+      <div className="max-w-5xl mx-auto">
+        <div className="text-center mb-14">
+          <p className="text-xs tracking-[0.4em] text-latte uppercase mb-4">Instagram</p>
+          <h2 className="font-serif text-4xl">@{C.instagram}</h2>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3">
+          {C.gallery.map((src, i) => (
+            <div key={i} className="gallery-item aspect-square overflow-hidden bg-espresso/10">
+              <img src={src} alt={`gallery ${i + 1}`}
+                   className="w-full h-full object-cover" />
+            </div>
+          ))}
+        </div>
+        <div className="text-center mt-8">
+          <a href={`https://instagram.com/${C.instagram}`}
+             className="text-xs tracking-widest border border-espresso px-8 py-3 hover:bg-espresso hover:text-cream transition-all inline-block">
+            VIEW MORE ON INSTAGRAM
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── アクセス ── */
+function Access() {
+  return (
+    <section id="access" className="bg-[#F2EDE5] py-28 px-6">
+      <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p className="text-xs tracking-[0.4em] text-latte uppercase mb-6">Access</p>
+          <h2 className="font-serif text-4xl mb-8">Find Us</h2>
+          <div className="space-y-4 text-sm text-espresso/70">
+            <div className="flex gap-4">
+              <span className="text-latte shrink-0">📍</span>
+              <span>{C.address}</span>
+            </div>
+            <div className="flex gap-4">
+              <span className="text-latte shrink-0">🕐</span>
+              <span>{C.hours}</span>
+            </div>
+            <div className="flex gap-4">
+              <span className="text-latte shrink-0">📞</span>
+              <span>{C.phone}</span>
+            </div>
+          </div>
+          <a href={C.contactUrl}
+             className="inline-block mt-10 bg-espresso text-cream text-xs tracking-widest px-10 py-4 hover:bg-latte transition-colors duration-300">
+            ご予約・お問い合わせ
+          </a>
+        </div>
+        <div className="w-full h-72 md:h-80 overflow-hidden rounded-sm shadow-md">
+          <iframe
+            src={C.googleMapSrc}
+            width="100%" height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="map"
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ── フッター ── */
+function Footer() {
+  return (
+    <footer className="bg-espresso text-white/40 py-10 px-6 text-center">
+      <p className="font-serif text-lg text-white/70 mb-2">{C.name}</p>
+      <p className="text-xs tracking-widest">© 2024 {C.name}. All rights reserved.</p>
+    </footer>
+  );
+}
+
+/* ── モバイル固定CTAボタン ── */
+function MobileCTA() {
+  return (
+    <a href={C.contactUrl}
+       className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-latte text-white text-center py-4 text-sm tracking-widest font-medium shadow-lg hover:bg-espresso transition-colors duration-300">
+      ご予約・お問い合わせ →
+    </a>
+  );
+}
+
+/* ── App ── */
+function App() {
+  return (
+    <div className="mobile-bottom-pad">
+      <Nav />
+      <Hero />
+      <Concept />
+      <Menu />
+      <Gallery />
+      <Access />
+      <Footer />
+      <MobileCTA />
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>
