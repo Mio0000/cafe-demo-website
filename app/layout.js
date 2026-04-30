@@ -1,20 +1,12 @@
-import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-poppins",
-});
-
 export const metadata = {
-  title: "Café Felice — Bourke St Breakfast, Melbourne CBD",
+  title: "Cathedral Coffee — Melbourne CBD",
   description:
-    "Classic Bourke St breakfast spot. Great coffee, hearty meals, outdoor seating. 461 Bourke St, Melbourne VIC 3000. Rated 4.6★.",
+    "Hidden in the heart of Melbourne CBD's Cathedral Arcade. Coffee by day, wine by night. Unit 9, 37 Swanston St, Nicholas Building.",
   openGraph: {
-    title: "Café Felice — Bourke St Breakfast",
-    description:
-      "Casual, vibrant, affordable CBD cafe. Great coffee and hearty meals in Melbourne's Bourke St.",
+    title: "Cathedral Coffee",
+    description: "Hidden heritage cafe in Melbourne's historic Cathedral Arcade",
     type: "website",
   },
 };
@@ -22,12 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={poppins.variable}
-        style={{ fontFamily: "'Poppins', sans-serif" }}
-      >
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
