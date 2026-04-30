@@ -56,7 +56,7 @@ export default function CafeFelicePage() {
   return (
     <main
       className="min-h-screen"
-      style={{ fontFamily: "var(--font-poppins), Inter, sans-serif", backgroundColor: "#F5F2EF", color: "#2a2a2a" }}
+      style={{ fontFamily: "'Poppins', sans-serif", backgroundColor: "#F5F2EF", color: "#2a2a2a" }}
     >
       {/* ── NAV ── */}
       <nav
@@ -172,7 +172,7 @@ export default function CafeFelicePage() {
         >
           461 Bourke St, Melbourne VIC 3000
         </p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#2F4F2F" }}>
+        <h2 className="text-3xl md:text-4xl font-bold tracking-wide mb-4" style={{ color: "#2F4F2F" }}>
           Where the CBD slows down
         </h2>
         <p className="text-base md:text-lg max-w-xl mx-auto leading-relaxed" style={{ color: "#555" }}>
@@ -194,7 +194,7 @@ export default function CafeFelicePage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <p className="text-xs font-semibold tracking-widest uppercase mb-2" style={{ color: "#D2691E" }}>What we serve</p>
-            <h2 className="text-4xl font-bold" style={{ color: "#2F4F2F" }}>The Menu</h2>
+            <h2 className="text-4xl font-bold tracking-wide" style={{ color: "#2F4F2F" }}>The Menu</h2>
           </div>
 
           {/* Blackboard photo — hero of this section */}
@@ -261,7 +261,7 @@ export default function CafeFelicePage() {
               <p className="text-xs font-semibold tracking-widest uppercase mb-3" style={{ color: "#D2691E" }}>
                 Our Space
               </p>
-              <h2 className="text-4xl font-bold mb-6 leading-tight">
+              <h2 className="text-4xl font-bold tracking-wide mb-6 leading-tight">
                 Grab a seat,<br />stay a while
               </h2>
               <p className="text-white/75 leading-relaxed mb-6">
@@ -299,7 +299,7 @@ export default function CafeFelicePage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <p className="text-xs font-semibold tracking-widest uppercase mb-2" style={{ color: "#D2691E" }}>From the kitchen</p>
-            <h2 className="text-4xl font-bold" style={{ color: "#2F4F2F" }}>Fan Favourites</h2>
+            <h2 className="text-4xl font-bold tracking-wide" style={{ color: "#2F4F2F" }}>Fan Favourites</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {FEATURED.map((item) => (
@@ -327,7 +327,7 @@ export default function CafeFelicePage() {
       <section id="visit" className="py-20 px-6" style={{ backgroundColor: "#F5F2EF" }}>
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-xs font-semibold tracking-widest uppercase mb-2" style={{ color: "#D2691E" }}>Come say hello</p>
-          <h2 className="text-4xl font-bold mb-10" style={{ color: "#2F4F2F" }}>Find Us</h2>
+          <h2 className="text-4xl font-bold tracking-wide mb-10" style={{ color: "#2F4F2F" }}>Find Us</h2>
 
           <div className="grid sm:grid-cols-3 gap-8 mb-12">
             {[
@@ -353,9 +353,9 @@ export default function CafeFelicePage() {
                 style={{ backgroundColor: "#fff", border: "1px solid rgba(210,105,30,0.12)" }}
               >
                 <div className="text-3xl mb-3">{card.icon}</div>
-                <div className="font-semibold mb-2" style={{ color: "#2F4F2F" }}>{card.title}</div>
+                <div className="font-semibold tracking-wide mb-2" style={{ color: "#2F4F2F" }}>{card.title}</div>
                 {card.lines.map((l) => (
-                  <div key={l} className="text-sm text-gray-500">{l}</div>
+                  <div key={l} className="text-sm text-gray-500 leading-relaxed">{l}</div>
                 ))}
               </div>
             ))}

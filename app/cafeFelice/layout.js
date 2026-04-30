@@ -20,7 +20,10 @@ export const metadata = {
 
 export default function CafeFeliceLayout({ children }) {
   return (
-    <div className={`${poppins.variable} font-[family-name:var(--font-poppins)]`}>
+    <div
+      className={poppins.variable}
+      style={{ fontFamily: "'Poppins', sans-serif" }}
+    >
       {children}
     </div>
   );
