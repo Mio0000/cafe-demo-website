@@ -1102,5 +1102,97 @@
     "mapEmbed": "https://maps.google.com/maps?q=139%20Bouverie%20St%2C%20Carlton%20VIC%203053%2C%20Australia&output=embed",
     "heroImage": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1600&q=80",
     "interiorImage": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=800&q=80"
+  },
+  "sydney-coffee-co": {
+    "name": "Sydney Coffee Co.",
+    "tagline": "Specialty coffee in the heart of Sydney.",
+    "eyebrow": "Sydney CBD · George Street",
+    "menuSubtitle": "Single-origin beans, seasonal small plates, served all day.",
+    "address": {
+      "line1": "120 George St",
+      "line2": "Sydney NSW 2000",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.5,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 5:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": "$4.5"
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": "$5.5"
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": "$6.5"
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": "$7"
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": "$5"
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": "$17"
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, whipped butter",
+            "price": "$6"
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": "$12"
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "Amazing specialty coffee right in the CBD. A must-visit!",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=120%20George%20St%2C%20Sydney%20NSW%202000&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=80"
   }
 }
