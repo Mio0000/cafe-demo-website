@@ -1,22 +1,28 @@
 
+airport-west-coffee-co
 au79-cafe
 betsy-jane
+blue-moon-cafe
 cafe-45
 cafe-adamo-sunshine
 cafe-carlton
 cafe-cocoa
+cafe-du-haven
 cafe-excello
 cafe-felice
 cafe-issus
 cafe-lucio
+cafe-sol
 cafe-tre-sette
 cafe-vicolino
+casual-kitchen-hana
 cathedral-coffee
 chatty
 coffee-hq
 crema-cafe
 culpa-espresso
 culpa-espresso-cafe
+dwyer-street-cafe
 earl-of-brew
 fandango-banh-mi-vietnamese-restaurant
 fiord
@@ -31,6 +37,7 @@ lemon-bite-cafe
 lot48-cafe-wallan
 manchester-xpress
 marco-polo-coffee-house
+matsunoji
 minomino
 moonlight-cafe-broadmeadows-central
 old-faithful-cafe
@@ -44,6 +51,8 @@ the-print-room-cafe
 the-vine-coffee-roasters
 three-drops-coffee-sandwich
 tinto-for-coffee-lovers
+top-notch-coffee
 towada
 tsubaki-cafe
 tsuta
+wolf-and-hound-cafe
