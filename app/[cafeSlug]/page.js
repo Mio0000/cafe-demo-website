@@ -35,7 +35,7 @@ function Nav({ cafe }) {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/coming-soon"
             className="ml-4 px-5 py-2 border border-forest text-forest font-sans text-sm tracking-widest uppercase hover:bg-forest hover:text-cream transition-all duration-300"
           >
             Reserve
@@ -64,7 +64,7 @@ function Nav({ cafe }) {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/coming-soon"
             onClick={() => setOpen(false)}
             className="self-start px-5 py-2 border border-forest text-forest font-sans text-sm tracking-widest uppercase hover:bg-forest hover:text-cream transition-all duration-300"
           >
@@ -151,7 +151,7 @@ function Hero({ cafe }) {
             View Menu
           </a>
           <a
-            href="#contact"
+            href="/coming-soon"
             className="px-8 py-3 border border-cream/60 text-cream font-sans text-sm tracking-widest uppercase hover:border-brass hover:text-brass transition-colors duration-300"
           >
             Reserve
