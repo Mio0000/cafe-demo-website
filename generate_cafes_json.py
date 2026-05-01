@@ -11,6 +11,8 @@ places_db.json からカテゴリが「Cafe」または「カフェ」の店舗�
 
 import hashlib
 import json
+import re
+import unicodedata
 from pathlib import Path
 
 REPO = Path(__file__).parent
@@ -56,7 +58,18 @@ INTERIOR_IMAGES = [
 ]
 
 
-def pick_image(slug: str, pool: list[str]) -> str:
+def slugify(name: str) -> str:
+    """店名 → URL-safe スラグ（run_automation.py と同一ロジック）。"""
+    name = unicodedata.normalize("NFKD", name)
+    name = name.encode("ascii", "ignore").decode("ascii")
+    name = name.lower()
+    name = re.sub(r"[^a-z0-9\s-]", "", name)
+    name = re.sub(r"[\s_]+", "-", name)
+    name = re.sub(r"-+", "-", name)
+    return name.strip("-") or "cafe"
+
+
+def pick_image(slug: str, pool: list) -> str:
     """スラグのハッシュ値でプールから一意に画像を選ぶ（実行ごとに変わらない）。"""
     index = int(hashlib.md5(slug.encode()).hexdigest(), 16) % len(pool)
     return pool[index]
@@ -70,48 +83,86 @@ def clear_prices(menu: list) -> list:
     return menu
 
 
+def ensure_slugs(places: list) -> list:
+    """
+    全エントリに slug を補完する。
+    slug がない場合は name から生成し、重複は -2, -3, ... で回避する。
+    """
+    seen: set = set()
+    for place in places:
+        raw_slug = place.get("slug") or ""
+        if not raw_slug:
+            raw_slug = slugify(place.get("name", "unknown"))
+
+        # 重複回避
+        slug = raw_slug
+        n = 2
+        while slug in seen:
+            slug = f"{raw_slug}-{n}"
+            n += 1
+
+        place["slug"] = slug
+        seen.add(slug)
+
+    return places
+
+
 def main() -> None:
     if not PLACES_DB.exists():
         raise FileNotFoundError(f"places_db.json が見つかりません: {PLACES_DB}")
 
     places = json.loads(PLACES_DB.read_text(encoding="utf-8"))
 
+    # ── 全エントリの slug を補完（KeyError 根絶）──────────────────────────────
+    places = ensure_slugs(places)
+
     cafes = [p for p in places if p.get("category") in CAFE_CATEGORIES]
     print(f"[filter]  {len(places)} 件中 {len(cafes)} 件のカフェを抽出しました")
 
     output: dict = {}
+    skipped = 0
+
     for place in cafes:
-        slug = place["slug"]
-        entry = {
-            "name": place["name"],
-            "tagline": place.get("tagline", ""),
-            "eyebrow": place.get("eyebrow", ""),
-            "menuSubtitle": place.get(
-                "menuSubtitle",
-                "Seasonal ingredients and specialty coffee, served with care every day.",
-            ),
-            "address": place.get("address", {}),
-            "phone": place.get("phone", ""),
-            "instagram": place.get("instagram", None),
-            "rating": place.get("rating", 4.0),
-            "hours": place.get("hours", []),
-            "wineNote": place.get("wineNote", None),
-            "menu": clear_prices(place.get("menu", [])),
-            "menuNote": place.get("menuNote", ""),
-            "transport": place.get("transport", []),
-            "reviews": place.get("reviews", []),
-            "mapEmbed": place.get("mapEmbed", ""),
-            "heroImage": pick_image(slug, HERO_IMAGES),
-            "interiorImage": pick_image(slug + "_interior", INTERIOR_IMAGES),
-        }
-        output[slug] = entry
-        print(f"  ✓  /{slug}")
+        slug = place["slug"]  # ensure_slugs で必ず存在する
+        try:
+            entry = {
+                "name":        place["name"],
+                "tagline":     place.get("tagline", ""),
+                "eyebrow":     place.get("eyebrow", ""),
+                "menuSubtitle": place.get(
+                    "menuSubtitle",
+                    "Seasonal ingredients and specialty coffee, served with care every day.",
+                ),
+                "address":     place.get("address", {}),
+                "phone":       place.get("phone", ""),
+                "instagram":   place.get("instagram", None),
+                "rating":      place.get("rating", 4.0),
+                "hours":       place.get("hours", []),
+                "wineNote":    place.get("wineNote", None),
+                "menu":        clear_prices(place.get("menu", [])),
+                "menuNote":    place.get("menuNote", ""),
+                "transport":   place.get("transport", []),
+                "reviews":     place.get("reviews", []),
+                "mapEmbed":    place.get("mapEmbed", ""),
+                "heroImage":   pick_image(slug, HERO_IMAGES),
+                "interiorImage": pick_image(slug + "_interior", INTERIOR_IMAGES),
+            }
+            output[slug] = entry
+            print(f"  ✓  /{slug}")
+
+        except Exception as e:
+            skipped += 1
+            print(f"  ✗  /{slug}  スキップ ({type(e).__name__}: {e})")
 
     CAFES_JSON.write_text(
         json.dumps(output, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"\n[done]    {len(output)} cafes → {CAFES_JSON.relative_to(REPO)}")
+
+    summary = f"{len(output)} cafes → {CAFES_JSON.relative_to(REPO)}"
+    if skipped:
+        summary += f"  ({skipped} 件スキップ)"
+    print(f"\n[done]    {summary}")
 
 
 if __name__ == "__main__":
