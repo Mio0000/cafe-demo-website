@@ -1,6 +1,10 @@
 
+-2
+-3
+999
 airport-west-coffee-co
 alice
+angelars-cafe
 au79-cafe
 batch-espresso
 betsy-jane
@@ -14,6 +18,7 @@ cafe-cocoa
 cafe-du-haven
 cafe-excello
 cafe-felice
+cafe-harmony
 cafe-issus
 cafe-lucio
 cafe-on-wattletree
@@ -51,12 +56,14 @@ indus-specialty-coffee
 koffee-kult
 lemon-bite-cafe
 lot48-cafe-wallan
+lottie-espresso
 manchester-xpress
 marco-polo-coffee-house
 matsunoji
 mehretina-cafe
 minomino
 moonlight-cafe-broadmeadows-central
+nagisa
 nakakura
 neighbourhood-coffee-co
 ninon
@@ -65,6 +72,7 @@ pacific-mixmonte-coffee-cafe
 pascoed-coffee
 poolhouse-coffee
 prickly-pear
+shima-no-eki-mamegashima
 shiroyama-cafe
 smileys-cafe
 south-cafe
@@ -80,9 +88,11 @@ three-drops-coffee-sandwich
 tinto-for-coffee-lovers
 top-notch-coffee
 torii-pines-cafe
+tour-de-cafe
 towada
 tsubaki-cafe
 tsuta
 twoten-coffee
+unclebart-espresso-bar-kitchen
 wolf-and-hound-cafe
 yolo-coffee-cafe
