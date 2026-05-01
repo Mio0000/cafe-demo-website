@@ -1,8 +1,11 @@
 
 airport-west-coffee-co
+alice
 au79-cafe
+batch-espresso
 betsy-jane
 blue-moon-cafe
+boathouse-cafe
 cafe-45
 cafe-adamo-sunshine
 cafe-carlton
@@ -13,6 +16,7 @@ cafe-felice
 cafe-issus
 cafe-lucio
 cafe-sol
+cafe-squared
 cafe-tre-sette
 cafe-vicolino
 capri-cafe
@@ -25,6 +29,7 @@ coffee-kan-arrow
 crema-cafe
 culpa-espresso
 culpa-espresso-cafe
+dose-one-cafe
 dwyer-street-cafe
 earl-of-brew
 fandango-banh-mi-vietnamese-restaurant
@@ -46,13 +51,17 @@ matsunoji
 mehretina-cafe
 minomino
 moonlight-cafe-broadmeadows-central
+nakakura
+neighbourhood-coffee-co
 old-faithful-cafe
 pacific-mixmonte-coffee-cafe
 pascoed-coffee
 poolhouse-coffee
+shiroyama-cafe
 smileys-cafe
 south-cafe
 sunny
+the-bayside-soho-coffee-house
 the-coffeeologist-cafe
 the-nicholson-coffee-house
 the-print-room-cafe
@@ -66,3 +75,4 @@ tsubaki-cafe
 tsuta
 twoten-coffee
 wolf-and-hound-cafe
+yolo-coffee-cafe
