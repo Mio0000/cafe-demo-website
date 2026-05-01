@@ -1,6 +1,8 @@
 
+au79-cafe
 betsy-jane
 cafe-45
+cafe-adamo-sunshine
 cafe-carlton
 cafe-cocoa
 cafe-excello
@@ -19,18 +21,25 @@ earl-of-brew
 fandango-banh-mi-vietnamese-restaurant
 fiord
 furu-furu-coffee-room
+good-neighbour-espresso
 gordons-cafe-bar
+grand-boulevard-cafe
 hamodava-cafe
 her-cafe
 koffee-kult
 lemon-bite-cafe
+lot48-cafe-wallan
 manchester-xpress
+marco-polo-coffee-house
 minomino
 moonlight-cafe-broadmeadows-central
+old-faithful-cafe
+pacific-mixmonte-coffee-cafe
 pascoed-coffee
 poolhouse-coffee
 smileys-cafe
 sunny
+the-nicholson-coffee-house
 the-print-room-cafe
 the-vine-coffee-roasters
 three-drops-coffee-sandwich
