@@ -39,8 +39,8 @@ if git diff --cached --quiet; then
 else
   git commit -m "Batch deploy: New cafe demos"
   echo ""
-  echo "▶ Step 3b/4  git push origin main ..."
-  git push origin main
+  echo "▶ Step 3b/4  git push origin master ..."
+  git push origin master
 fi
 echo ""
 
