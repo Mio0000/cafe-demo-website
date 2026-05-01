@@ -196,11 +196,15 @@ function Menu({ cafe }) {
               <ul className="space-y-4">
                 {section.items.map((item) => (
                   <li key={item.name} className="flex justify-between items-start gap-3">
-                    <div>
+                    <div className="flex-1 min-w-0">
                       <p className="font-sans text-sm font-medium text-charcoal">{item.name}</p>
                       <p className="font-sans text-xs text-charcoal/50 mt-0.5">{item.desc}</p>
                     </div>
-                    <span className="font-sans text-sm text-brass font-medium whitespace-nowrap">{item.price}</span>
+                    {item.price ? (
+                      <span className="font-sans text-sm text-brass font-medium whitespace-nowrap shrink-0">{item.price}</span>
+                    ) : (
+                      <span className="font-sans text-xs text-charcoal/30 whitespace-nowrap shrink-0 self-center">Ask us</span>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -349,15 +353,17 @@ function Contact({ cafe }) {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8">
-            <div>
-              <p className="font-sans text-xs tracking-widest uppercase text-brass mb-2">Phone</p>
-              <a
-                href={`tel:${cafe.phone.replace(/\s/g, "")}`}
-                className="font-serif text-2xl text-cream hover:text-brass transition-colors duration-300"
-              >
-                {cafe.phone}
-              </a>
-            </div>
+            {cafe.phone && (
+              <div>
+                <p className="font-sans text-xs tracking-widest uppercase text-brass mb-2">Phone</p>
+                <a
+                  href={`tel:${cafe.phone.replace(/\s/g, "")}`}
+                  className="font-serif text-2xl text-cream hover:text-brass transition-colors duration-300"
+                >
+                  {cafe.phone}
+                </a>
+              </div>
+            )}
             {cafe.instagram && (
               <div>
                 <p className="font-sans text-xs tracking-widest uppercase text-brass mb-2">Instagram</p>
