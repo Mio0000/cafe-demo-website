@@ -3700,5 +3700,2795 @@
       }
     ],
     "mapEmbed": "https://maps.google.com/maps?q=479-5%20%C5%8Cgakich%C5%8D%20%C5%8Cbara%2C%20Etajima%2C%20Hiroshima%20737-2213%2C%20Japan&output=embed"
+  },
+  {
+    "_source_id": "ChIJKXmi-3k11GoRs0lfGVT-PNI",
+    "slug": "flat-blk",
+    "category": "Cafe",
+    "name": "Flat Blk",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · 138 Ocean Beach Rd",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "138 Ocean Beach Rd",
+      "line2": "Sorrento VIC 3943",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.6,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 188+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=138%20Ocean%20Beach%20Rd%2C%20Sorrento%20VIC%203943%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJ73DGbn1t1moRkayoGF-bT7M",
+    "slug": "the-street-cafe-aspendale",
+    "category": "Cafe",
+    "name": "The Street Cafe Aspendale",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · 142 Station St",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "142 Station St",
+      "line2": "Aspendale VIC 3195",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.6,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 201+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=142%20Station%20St%2C%20Aspendale%20VIC%203195%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJh7gKxg5t1moRK8Bbz-p3iwQ",
+    "slug": "16beans-espresso-bar",
+    "category": "Cafe",
+    "name": "16Beans Espresso Bar",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · 107 Charman Rd",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "107 Charman Rd",
+      "line2": "Beaumaris VIC 3193",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.7,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 28+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=107%20Charman%20Rd%2C%20Beaumaris%20VIC%203193%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJ2XjobXff1WoRfLU4t_aSZ0o",
+    "slug": "velos-mazeh-musette-coffee",
+    "category": "Cafe",
+    "name": "Velos Mazeh Musette Coffee",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · 76 Mount Eliza Way",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "76 Mount Eliza Way",
+      "line2": "Mount Eliza VIC 3930",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.9,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 163+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=76%20Mount%20Eliza%20Way%2C%20Mount%20Eliza%20VIC%203930%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJ1c20wKRr1moRPaQeEIgOMT8",
+    "slug": "the-loose-goose-cafe",
+    "category": "Cafe",
+    "name": "The Loose Goose Cafe",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · 346/352 Warrigal Rd",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "346/352 Warrigal Rd",
+      "line2": "Bentleigh East VIC 3165",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.2,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 125+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=346/352%20Warrigal%20Rd%2C%20Bentleigh%20East%20VIC%203165%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJE98GUv0V1moRDw9IYjpvGT0",
+    "slug": "gawoo-cafe",
+    "category": "Cafe",
+    "name": "GAWOO CAFE",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · K7&K8/2107 Dandenong Rd",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "K7&K8/2107 Dandenong Rd",
+      "line2": "Clayton VIC 3168",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 46+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=K7%26K8/2107%20Dandenong%20Rd%2C%20Clayton%20VIC%203168%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJOy3HYTkIUDURorEIVyih_D4",
+    "slug": "seaside-cafe-beacon",
+    "category": "カフェ",
+    "name": "SEASIDE CAFE BEACON",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · Japan",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "Japan",
+      "line2": "〒737-0029 Hiroshima",
+      "city": "Kure, Takaramachi, 5−２０ 大和ミュージアム 西隣",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 3.3,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。334件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 3
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=Japan%2C%20%E3%80%92737-0029%20Hiroshima%2C%20Kure%2C%20Takaramachi%2C%205%E2%88%92%EF%BC%92%EF%BC%90%20%E5%A4%A7%E5%92%8C%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0%20%E8%A5%BF%E9%9A%A3&output=embed"
+  },
+  {
+    "_source_id": "ChIJM7UkydIJUDURYYJ4TnTHlcQ",
+    "slug": "cafe-room-s",
+    "category": "カフェ",
+    "name": "Cafe Room S(ルーム エス)",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · Japan",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "Japan",
+      "line2": "〒737-0811 Hiroshima",
+      "city": "Kure, Nishichūō, 2-chōme−5−７ 長門ビル １階",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.8,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。39件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=Japan%2C%20%E3%80%92737-0811%20Hiroshima%2C%20Kure%2C%20Nishich%C5%AB%C5%8D%2C%202-ch%C5%8Dme%E2%88%925%E2%88%92%EF%BC%97%20%E9%95%B7%E9%96%80%E3%83%93%E3%83%AB%20%EF%BC%91%E9%9A%8E&output=embed"
+  },
+  {
+    "_source_id": "ChIJPyRaJDMIUDURavG2p7pWKQI",
+    "slug": "-4",
+    "category": "カフェ",
+    "name": "ハーベストカフェ",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 2-chōme-3-24 Nakadōri",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "2-chōme-3-24 Nakadōri",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0046, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.6,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。50件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=2-ch%C5%8Dme-3-24%20Nakad%C5%8Dri%2C%20Kure%2C%20Hiroshima%20737-0046%2C%20Japan&output=embed"
+  },
+  {
+    "_source_id": "ChIJqWdIv-8JUDUR_CdOyJoeotg",
+    "slug": "cafe-bleu",
+    "category": "カフェ",
+    "name": "Cafe Bleu",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 2-chōme-7-8 Hirokoshingai",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "2-chōme-7-8 Hirokoshingai",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0112, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.4,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。26件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=2-ch%C5%8Dme-7-8%20Hirokoshingai%2C%20Kure%2C%20Hiroshima%20737-0112%2C%20Japan&output=embed"
+  },
+  {
+    "_source_id": "ChIJN3eTIjMIUDURNzr_5Pp4DRQ",
+    "slug": "cafeikko",
+    "category": "カフェ",
+    "name": "ＣａｆｅＩＫＫＯ",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 2-chōme-2-17 Nakadōri",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "2-chōme-2-17 Nakadōri",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0046, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。40件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=2-ch%C5%8Dme-2-17%20Nakad%C5%8Dri%2C%20Kure%2C%20Hiroshima%20737-0046%2C%20Japan&output=embed"
+  },
+  {
+    "_source_id": "ChIJmWC4UTAJUDURwCuCRMfwt5M",
+    "slug": "akarenga",
+    "category": "カフェ",
+    "name": "Akarenga",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 1-chōme-11-13 Hirohonmachi",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "1-chōme-11-13 Hirohonmachi",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0125, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。122件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=1-ch%C5%8Dme-11-13%20Hirohonmachi%2C%20Kure%2C%20Hiroshima%20737-0125%2C%20Japan&output=embed"
+  },
+  {
+    "_source_id": "ChIJm7RSazsJUDURkcAm2_i3XN0",
+    "slug": "jun",
+    "category": "カフェ",
+    "name": "Jun",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 2-chōme-2-11 Hirokoshingai",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "2-chōme-2-11 Hirokoshingai",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0112, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。36件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=2-ch%C5%8Dme-2-11%20Hirokoshingai%2C%20Kure%2C%20Hiroshima%20737-0112%2C%20Japan&output=embed"
+  },
+  {
+    "_source_id": "ChIJ5Y08BQYKUDURJhzVRqES0TY",
+    "slug": "coffee",
+    "category": "カフェ",
+    "name": "coffee アンルポ",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · Japan",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "Japan",
+      "line2": "〒737-0935 Hiroshima",
+      "city": "Kure, Yakeyamachūō, 1-chōme−10−８ 石田ビル",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.1,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。24件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=Japan%2C%20%E3%80%92737-0935%20Hiroshima%2C%20Kure%2C%20Yakeyamach%C5%AB%C5%8D%2C%201-ch%C5%8Dme%E2%88%9210%E2%88%92%EF%BC%98%20%E7%9F%B3%E7%94%B0%E3%83%93%E3%83%AB&output=embed"
+  },
+  {
+    "_source_id": "ChIJKai-ADEJUDURA_xGljfonCQ",
+    "slug": "-5",
+    "category": "カフェ",
+    "name": "カフェ ロキシー",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 1-chōme-13-4 Hirohonmachi",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "1-chōme-13-4 Hirohonmachi",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0125, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.1,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。27件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=1-ch%C5%8Dme-13-4%20Hirohonmachi%2C%20Kure%2C%20Hiroshima%20737-0125%2C%20Japan&output=embed"
+  },
+  {
+    "_source_id": "ChIJq2oMpT6oWjURUBUCUHeIRGg",
+    "slug": "an-eating-house-chirimen",
+    "category": "カフェ",
+    "name": "An eating house Chirimen.",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · Japan",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "Japan",
+      "line2": "〒737-1201 Hiroshima",
+      "city": "Kure, Ondochō Tsuboi, 1-chōme−11−１２２ ひまねきテラス 内",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 3.8,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。83件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=Japan%2C%20%E3%80%92737-1201%20Hiroshima%2C%20Kure%2C%20Ondoch%C5%8D%20Tsuboi%2C%201-ch%C5%8Dme%E2%88%9211%E2%88%92%EF%BC%91%EF%BC%92%EF%BC%92%20%E3%81%B2%E3%81%BE%E3%81%AD%E3%81%8D%E3%83%86%E3%83%A9%E3%82%B9%20%E5%86%85&output=embed"
+  },
+  {
+    "_source_id": "ChIJJyhvuMwJUDURTJ-hjg4ivXg",
+    "slug": "cafe-de-nice",
+    "category": "カフェ",
+    "name": "Cafe de Nice",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 3-chōme-2-26 Nakadōri",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "3-chōme-2-26 Nakadōri",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0046, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.1,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。46件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=3-ch%C5%8Dme-2-26%20Nakad%C5%8Dri%2C%20Kure%2C%20Hiroshima%20737-0046%2C%20Japan&output=embed"
+  },
+  {
+    "_source_id": "ChIJI3zwEIinWjURtUheb--x59E",
+    "slug": "cafe-do-do",
+    "category": "カフェ",
+    "name": "Cafe Do Do",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 8-25 Takaramachi",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "8-25 Takaramachi",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0029, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.4,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。47件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=8-25%20Takaramachi%2C%20Kure%2C%20Hiroshima%20737-0029%2C%20Japan&output=embed"
+  },
+  {
+    "_source_id": "ChIJr0L-bX1t1moRvJ2N2QlTFFQ",
+    "slug": "aspendale-cafe",
+    "category": "Cafe",
+    "name": "Aspendale Cafe",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · 137 Station St",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "137 Station St",
+      "line2": "Aspendale VIC 3195",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.7,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 83+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=137%20Station%20St%2C%20Aspendale%20VIC%203195%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJHcc_Cl1z1moRIlMlgxFlpJQ",
+    "slug": "chelsea-general-store",
+    "category": "Cafe",
+    "name": "CHELSEA GENERAL STORE",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · 36 Sherwood Avenue Corner of Sherwood avenue &",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "36 Sherwood Avenue Corner of Sherwood avenue &",
+      "line2": "Fowler St",
+      "city": "Chelsea VIC 3196, Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.8,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 52+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=36%20Sherwood%20Avenue%20Corner%20of%20Sherwood%20avenue%20%26%2C%20Fowler%20St%2C%20Chelsea%20VIC%203196%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJ5w0fR_Vz1moRKuhdTWyMn8M",
+    "slug": "sophies-cafe-restaurant-chelsea",
+    "category": "Cafe",
+    "name": "Sophie’s Cafe Restaurant Chelsea",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · 16/450 Nepean Hwy",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "16/450 Nepean Hwy",
+      "line2": "Chelsea VIC 3196",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.8,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 172+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=16/450%20Nepean%20Hwy%2C%20Chelsea%20VIC%203196%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJRQI5fgUU1moR4tJgt0swZsc",
+    "slug": "cafe-valentina-dandenong-market",
+    "category": "Cafe",
+    "name": "Cafe Valentina Dandenong Market",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · N/1 Cleeland St",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "N/1 Cleeland St",
+      "line2": "Dandenong VIC 3175",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.7,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 71+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=N/1%20Cleeland%20St%2C%20Dandenong%20VIC%203175%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJo52zL8By1moRSzbxHC--g6w",
+    "slug": "longbeach-bakery",
+    "category": "Cafe",
+    "name": "Longbeach Bakery",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · 416 Nepean Hwy",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "416 Nepean Hwy",
+      "line2": "Chelsea VIC 3196",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.1,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 64+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=416%20Nepean%20Hwy%2C%20Chelsea%20VIC%203196%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJP67C2j1t1moRkbJsn2q7sF4",
+    "slug": "cafe-ibis",
+    "category": "Cafe",
+    "name": "Cafe Ibis",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · 18/314 Governor Rd",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "18/314 Governor Rd",
+      "line2": "Braeside VIC 3195",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.8,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 109+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=18/314%20Governor%20Rd%2C%20Braeside%20VIC%203195%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJg8lV9uAR1moRXsW20uN7AAU",
+    "slug": "coffee-barn-bistro-bar",
+    "category": "Cafe",
+    "name": "Coffee Barn Bistro & Bar",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · Capital Prom",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "Capital Prom",
+      "line2": "Lyndhurst VIC 3975",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 365+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=Capital%20Prom%2C%20Lyndhurst%20VIC%203975%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJ2w5MqUgV1moRkTgj99-fIE0",
+    "slug": "seven8-coffee",
+    "category": "Cafe",
+    "name": "Seven8 Coffee",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · Unit 1/3 Gladstone Rd",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "Unit 1/3 Gladstone Rd",
+      "line2": "Dandenong VIC 3175",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.2,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 33+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=Unit%201/3%20Gladstone%20Rd%2C%20Dandenong%20VIC%203175%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJTRtOA34V1moR11ftfjPRyaI",
+    "slug": "george-st-cafe",
+    "category": "Cafe",
+    "name": "George St Cafe",
+    "tagline": "Specialty coffee in Melbourne.",
+    "eyebrow": "Melbourne · 21 George St",
+    "menuSubtitle": "Seasonal ingredients and specialty coffee, served with care every day.",
+    "address": {
+      "line1": "21 George St",
+      "line2": "Dandenong VIC 3175",
+      "city": "Australia",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.9,
+    "hours": [
+      {
+        "days": "Monday – Friday",
+        "time": "7:00 am – 4:00 pm"
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "8:00 am – 3:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "Coffee",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "Espresso",
+            "desc": "Single origin, bright & clean",
+            "price": ""
+          },
+          {
+            "name": "Flat White",
+            "desc": "Velvety microfoam, full-bodied",
+            "price": ""
+          },
+          {
+            "name": "Oat Latte",
+            "desc": "Creamy, naturally sweet",
+            "price": ""
+          },
+          {
+            "name": "Cold Brew",
+            "desc": "12-hour steep, smooth & dark",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "Bites",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "Croissant",
+            "desc": "Freshly baked daily",
+            "price": ""
+          },
+          {
+            "name": "Avocado Toast",
+            "desc": "Smashed avo on sourdough",
+            "price": ""
+          },
+          {
+            "name": "Banana Bread",
+            "desc": "House-made, with whipped butter",
+            "price": ""
+          },
+          {
+            "name": "Seasonal Tart",
+            "desc": "Ask your barista today",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "Menu changes seasonally. Dietary options available — ask your barista.",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Google Review",
+        "text": "A popular local with 96+ reviews. Great coffee and a welcoming atmosphere.",
+        "rating": 5
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=21%20George%20St%2C%20Dandenong%20VIC%203175%2C%20Australia&output=embed"
+  },
+  {
+    "_source_id": "ChIJz4tJdq4LUDURtMg9vy87ufk",
+    "slug": "nishiki",
+    "category": "カフェ",
+    "name": "nishiki屋",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 2519-6 Gōharachō",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "2519-6 Gōharachō",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0161, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 3.7,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。41件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=2519-6%20G%C5%8Dharach%C5%8D%2C%20Kure%2C%20Hiroshima%20737-0161%2C%20Japan&output=embed"
+  },
+  {
+    "_source_id": "ChIJY07IJZ0PUDURV2C-HJwhKuE",
+    "slug": "-6",
+    "category": "カフェ",
+    "name": "梶ヶ浜のお月さん",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · Shimokamagaricho Shimojima",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "Shimokamagaricho Shimojima",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0303, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。61件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=Shimokamagaricho%20Shimojima%2C%20Kure%2C%20Hiroshima%20737-0303%2C%20Japan&output=embed"
+  },
+  {
+    "_source_id": "ChIJ-wVCvXkwUDURn61-XCvl3Sw",
+    "slug": "cafe-restaurant-america",
+    "category": "カフェ",
+    "name": "Cafe-Restaurant America",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 5-chōme-2-14 Higashimura",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "5-chōme-2-14 Higashimura",
+      "line2": "Imabari",
+      "city": "Ehime 799-1506, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 3.9,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。148件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=5-ch%C5%8Dme-2-14%20Higashimura%2C%20Imabari%2C%20Ehime%20799-1506%2C%20Japan&output=embed"
   }
 ]
