@@ -1,6 +1,7 @@
 
 -2
 -3
+16beans-espresso-bar
 999
 airport-west-coffee-co
 alice
@@ -22,6 +23,7 @@ cafe-harmony
 cafe-issus
 cafe-lucio
 cafe-on-wattletree
+cafe-room-s
 cafe-sol
 cafe-squared
 cafe-tre-sette
@@ -47,7 +49,9 @@ dwyer-street-cafe
 earl-of-brew
 fandango-banh-mi-vietnamese-restaurant
 fiord
+flat-blk
 furu-furu-coffee-room
+gawoo-cafe
 giggles-cafeespresso-bar
 good-neighbour-espresso
 gordons-cafe-bar
@@ -76,6 +80,7 @@ pacific-mixmonte-coffee-cafe
 pascoed-coffee
 poolhouse-coffee
 prickly-pear
+seaside-cafe-beacon
 shima-no-eki-mamegashima
 shiroyama-cafe
 smileys-cafe
@@ -86,8 +91,10 @@ sunny
 the-bayside-soho-coffee-house
 the-coffeeologist-cafe
 the-little-coffee-place
+the-loose-goose-cafe
 the-nicholson-coffee-house
 the-print-room-cafe
+the-street-cafe-aspendale
 the-vine-coffee-roasters
 three-drops-coffee-sandwich
 tinto-for-coffee-lovers
@@ -99,5 +106,6 @@ tsubaki-cafe
 tsuta
 twoten-coffee
 unclebart-espresso-bar-kitchen
+velos-mazeh-musette-coffee
 wolf-and-hound-cafe
 yolo-coffee-cafe
