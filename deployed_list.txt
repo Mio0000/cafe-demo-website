@@ -1,10 +1,14 @@
 
 -2
 -3
+-4
+-5
 16beans-espresso-bar
 999
 airport-west-coffee-co
+akarenga
 alice
+an-eating-house-chirimen
 angelars-cafe
 au79-cafe
 batch-espresso
@@ -14,8 +18,11 @@ boathouse-cafe
 cafe-204
 cafe-45
 cafe-adamo-sunshine
+cafe-bleu
 cafe-carlton
 cafe-cocoa
+cafe-de-nice
+cafe-do-do
 cafe-du-haven
 cafe-excello
 cafe-felice
@@ -29,6 +36,7 @@ cafe-squared
 cafe-tre-sette
 cafe-vicolino
 cafe-zeeta
+cafeikko
 capri-cafe
 casual-kitchen-hana
 cathedral-coffee
@@ -36,6 +44,7 @@ chain-of-fools
 chatty
 chichi-house-cafe
 chinese-restaurant-shin-beijing
+coffee
 coffee-cove
 coffee-home-cafe-seaford
 coffee-hq
@@ -60,6 +69,7 @@ grindstone-kitchen
 hamodava-cafe
 her-cafe
 indus-specialty-coffee
+jun
 kawaguchi
 koffee-kult
 lemon-bite-cafe
