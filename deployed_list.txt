@@ -10,6 +10,7 @@ akarenga
 alice
 an-eating-house-chirimen
 angelars-cafe
+aspendale-cafe
 au79-cafe
 batch-espresso
 betsy-jane
@@ -27,6 +28,7 @@ cafe-du-haven
 cafe-excello
 cafe-felice
 cafe-harmony
+cafe-ibis
 cafe-issus
 cafe-lucio
 cafe-on-wattletree
@@ -34,6 +36,7 @@ cafe-room-s
 cafe-sol
 cafe-squared
 cafe-tre-sette
+cafe-valentina-dandenong-market
 cafe-vicolino
 cafe-zeeta
 cafeikko
@@ -42,9 +45,11 @@ casual-kitchen-hana
 cathedral-coffee
 chain-of-fools
 chatty
+chelsea-general-store
 chichi-house-cafe
 chinese-restaurant-shin-beijing
 coffee
+coffee-barn-bistro-bar
 coffee-cove
 coffee-home-cafe-seaford
 coffee-hq
@@ -61,6 +66,7 @@ fiord
 flat-blk
 furu-furu-coffee-room
 gawoo-cafe
+george-st-cafe
 giggles-cafeespresso-bar
 good-neighbour-espresso
 gordons-cafe-bar
@@ -73,6 +79,7 @@ jun
 kawaguchi
 koffee-kult
 lemon-bite-cafe
+longbeach-bakery
 lot48-cafe-wallan
 lottie-espresso
 manchester-xpress
@@ -85,15 +92,18 @@ nagisa
 nakakura
 neighbourhood-coffee-co
 ninon
+nishiki
 old-faithful-cafe
 pacific-mixmonte-coffee-cafe
 pascoed-coffee
 poolhouse-coffee
 prickly-pear
 seaside-cafe-beacon
+seven8-coffee
 shima-no-eki-mamegashima
 shiroyama-cafe
 smileys-cafe
+sophies-cafe-restaurant-chelsea
 south-cafe
 srilanken-restaurant-cafe-lamp
 sun-sun-garden
