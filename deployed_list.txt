@@ -30,9 +30,12 @@ cafe-zeeta
 capri-cafe
 casual-kitchen-hana
 cathedral-coffee
+chain-of-fools
 chatty
 chichi-house-cafe
+chinese-restaurant-shin-beijing
 coffee-cove
+coffee-home-cafe-seaford
 coffee-hq
 coffee-kan-arrow
 crema-cafe
@@ -53,6 +56,7 @@ grindstone-kitchen
 hamodava-cafe
 her-cafe
 indus-specialty-coffee
+kawaguchi
 koffee-kult
 lemon-bite-cafe
 lot48-cafe-wallan
@@ -81,6 +85,7 @@ sun-sun-garden
 sunny
 the-bayside-soho-coffee-house
 the-coffeeologist-cafe
+the-little-coffee-place
 the-nicholson-coffee-house
 the-print-room-cafe
 the-vine-coffee-roasters
