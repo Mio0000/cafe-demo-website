@@ -3,6 +3,7 @@
 -3
 -4
 -5
+-6
 16beans-espresso-bar
 999
 airport-west-coffee-co
@@ -32,6 +33,7 @@ cafe-ibis
 cafe-issus
 cafe-lucio
 cafe-on-wattletree
+cafe-restaurant-america
 cafe-room-s
 cafe-sol
 cafe-squared

@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
-  import { SpeedInsights } from "@vercel/speed-insights/next";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import PageTransitionOverlay from "./components/PageTransitionOverlay";
 
 export const metadata = {
   title: "Cafe",
@@ -12,9 +12,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <PageTransitionOverlay />
         {children}
         <Analytics />
-        <SpeedInsights />         
+        <SpeedInsights />
       </body>
     </html>
   );

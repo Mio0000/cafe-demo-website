@@ -4,6 +4,21 @@ import { useState } from "react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getCafe } from "../../lib/cafes.js";
+import ScrollFadeUp from "../components/ScrollFadeUp";
+import HeroParallaxImage from "../components/HeroParallaxImage";
+import GalleryZoomSection from "../components/GalleryZoomSection";
+
+function getDisplayTagline(cafe) {
+  const tagline = cafe.tagline || "";
+  if (!tagline.includes("Melbourne")) return tagline;
+  const line2 = cafe.address?.line2 || "";
+  if (line2.toLowerCase().includes("melbourne")) return tagline;
+  const suburb = line2.split(/\s+VIC\s+/i)[0].trim();
+  if (suburb && suburb.length > 2 && suburb !== line2) {
+    return `Specialty coffee in ${suburb}.`;
+  }
+  return "Your neighbourhood specialty coffee.";
+}
 
 // ─── Nav ─────────────────────────────────────────────────────────────────────
 function Nav({ cafe }) {
@@ -94,16 +109,12 @@ function Hero({ cafe }) {
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-charcoal pt-16">
-      <div className="absolute inset-0">
-        <Image
-          src={cafe.heroImage}
-          alt={`${cafe.name} interior`}
-          fill
-          className="object-cover opacity-50"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-charcoal/70 via-charcoal/40 to-charcoal/80" />
-      </div>
+      {/* HeroParallaxImage is a separate 'use client' component — keeps
+          useScroll/useTransform out of this file's import chain */}
+      <HeroParallaxImage
+        src={cafe.heroImage}
+        alt={`${cafe.name} interior`}
+      />
 
       {/* Arch frame */}
       <div className="absolute inset-x-0 top-0 bottom-0 pointer-events-none z-10">
@@ -141,7 +152,7 @@ function Hero({ cafe }) {
           <div className="h-px w-12 bg-brass/60" />
         </div>
         <p className="font-sans text-base md:text-lg text-cream/80 font-light leading-relaxed mb-10">
-          {cafe.tagline}
+          {getDisplayTagline(cafe)}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
@@ -180,35 +191,39 @@ function Menu({ cafe }) {
   return (
     <section id="menu" className="py-24 bg-cream">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <p className="font-sans text-xs tracking-[0.25em] uppercase text-brass mb-3">What we serve</p>
-          <h2 className="font-serif text-4xl md:text-5xl text-forest">Our Menu</h2>
-          <div className="section-divider" />
-          <p className="font-sans text-charcoal/60 max-w-md mx-auto leading-relaxed">{cafe.menuSubtitle}</p>
-        </div>
+        <ScrollFadeUp>
+          <div className="text-center mb-16">
+            <p className="font-sans text-xs tracking-[0.25em] uppercase text-brass mb-3">What we serve</p>
+            <h2 className="font-serif text-4xl md:text-5xl text-forest">Our Menu</h2>
+            <div className="section-divider" />
+            <p className="font-sans text-charcoal/60 max-w-md mx-auto leading-relaxed">{cafe.menuSubtitle}</p>
+          </div>
+        </ScrollFadeUp>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {cafe.menu.map((section) => (
-            <div key={section.title} className="menu-card bg-white">
-              <div className="flex items-center gap-3 mb-6 pb-4 border-b border-beige">
-                <span className="text-2xl" role="img" aria-label={section.title}>{section.icon}</span>
-                <h3 className="font-serif text-xl text-forest">{section.title}</h3>
+          {cafe.menu.map((section, i) => (
+            <ScrollFadeUp key={section.title} delay={i * 0.12}>
+              <div className="menu-card bg-white">
+                <div className="flex items-center gap-3 mb-6 pb-4 border-b border-beige">
+                  <span className="text-2xl" role="img" aria-label={section.title}>{section.icon}</span>
+                  <h3 className="font-serif text-xl text-forest">{section.title}</h3>
+                </div>
+                <ul className="space-y-4">
+                  {section.items.map((item) => (
+                    <li key={item.name} className="flex justify-between items-start gap-3">
+                      <div className="flex-1 min-w-0">
+                        <p className="font-sans text-sm font-medium text-charcoal">{item.name}</p>
+                        <p className="font-sans text-xs text-charcoal/50 mt-0.5">{item.desc}</p>
+                      </div>
+                      {item.price ? (
+                        <span className="font-sans text-sm text-brass font-medium whitespace-nowrap shrink-0">{item.price}</span>
+                      ) : (
+                        <span className="font-sans text-xs text-charcoal/30 whitespace-nowrap shrink-0 self-center">Ask us</span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul className="space-y-4">
-                {section.items.map((item) => (
-                  <li key={item.name} className="flex justify-between items-start gap-3">
-                    <div className="flex-1 min-w-0">
-                      <p className="font-sans text-sm font-medium text-charcoal">{item.name}</p>
-                      <p className="font-sans text-xs text-charcoal/50 mt-0.5">{item.desc}</p>
-                    </div>
-                    {item.price ? (
-                      <span className="font-sans text-sm text-brass font-medium whitespace-nowrap shrink-0">{item.price}</span>
-                    ) : (
-                      <span className="font-sans text-xs text-charcoal/30 whitespace-nowrap shrink-0 self-center">Ask us</span>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            </ScrollFadeUp>
           ))}
         </div>
         {cafe.menuNote && (
@@ -219,6 +234,9 @@ function Menu({ cafe }) {
   );
 }
 
+// ─── Gallery zoom (5-image grid → center zooms full-screen → info overlay) ───
+// Delegates to the GalleryZoomSection client component (framer-motion inside)
+
 // ─── Reviews ─────────────────────────────────────────────────────────────────
 function Reviews({ cafe }) {
   if (!cafe.reviews?.length) return null;
@@ -226,32 +244,36 @@ function Reviews({ cafe }) {
   return (
     <section className="py-24 bg-charcoal">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <p className="font-sans text-xs tracking-[0.25em] uppercase text-brass mb-3">What guests say</p>
-          <h2 className="font-serif text-4xl md:text-5xl text-cream">Reviews</h2>
-          <div className="w-16 h-px bg-brass mx-auto my-6" />
-          <div className="flex items-center justify-center gap-2">
-            <span className="font-serif text-3xl text-brass">{cafe.rating}</span>
-            <div className="flex gap-1">
-              {[1, 2, 3, 4, 5].map((i) => (
-                <StarIcon key={i} filled={i <= Math.round(cafe.rating)} size={16} />
-              ))}
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {cafe.reviews.map((review, i) => (
-            <div key={i} className="border border-brass/20 p-6">
-              <div className="flex gap-1 mb-4">
-                {[1, 2, 3, 4, 5].map((j) => (
-                  <StarIcon key={j} filled={j <= review.rating} size={12} />
+        <ScrollFadeUp>
+          <div className="text-center mb-16">
+            <p className="font-sans text-xs tracking-[0.25em] uppercase text-brass mb-3">What guests say</p>
+            <h2 className="font-serif text-4xl md:text-5xl text-cream">Reviews</h2>
+            <div className="w-16 h-px bg-brass mx-auto my-6" />
+            <div className="flex items-center justify-center gap-2">
+              <span className="font-serif text-3xl text-brass">{cafe.rating}</span>
+              <div className="flex gap-1">
+                {[1, 2, 3, 4, 5].map((i) => (
+                  <StarIcon key={i} filled={i <= Math.round(cafe.rating)} size={16} />
                 ))}
               </div>
-              <p className="font-sans text-sm text-cream/70 leading-relaxed mb-4 italic">
-                &ldquo;{review.text}&rdquo;
-              </p>
-              <p className="font-sans text-xs text-brass tracking-wide">— {review.author}</p>
             </div>
+          </div>
+        </ScrollFadeUp>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {cafe.reviews.map((review, i) => (
+            <ScrollFadeUp key={i} delay={i * 0.1}>
+              <div className="border border-brass/20 p-6">
+                <div className="flex gap-1 mb-4">
+                  {[1, 2, 3, 4, 5].map((j) => (
+                    <StarIcon key={j} filled={j <= review.rating} size={12} />
+                  ))}
+                </div>
+                <p className="font-sans text-sm text-cream/70 leading-relaxed mb-4 italic">
+                  &ldquo;{review.text}&rdquo;
+                </p>
+                <p className="font-sans text-xs text-brass tracking-wide">— {review.author}</p>
+              </div>
+            </ScrollFadeUp>
           ))}
         </div>
       </div>
@@ -496,6 +518,7 @@ export default function CafePage({ params }) {
       <main>
         <Hero cafe={cafe} />
         <Menu cafe={cafe} />
+        <GalleryZoomSection cafe={cafe} />
         <Reviews cafe={cafe} />
         <Location cafe={cafe} />
         <Contact cafe={cafe} />
