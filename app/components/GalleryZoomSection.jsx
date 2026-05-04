@@ -1,188 +1,239 @@
 'use client'
 
 import { useRef, useEffect } from 'react'
-import { motion, useScroll, useTransform, useMotionValue } from 'framer-motion'
 import Image from 'next/image'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
 
 /**
- * Bento gallery grid where the center image magnetically scales to fill
- * the full viewport as the user scrolls, then an info overlay slides in.
+ * Scroll-linked image zoom section.
  *
- * Desktop (≥640px) grid — 2 rows:
- *   [───────────  top  ───────────]  45%
- *   [ left ] [  ZOOM  ] [ right  ]  55%
+ * 3-row bento grid:
+ *   [────────────  top  ────────────]   30%
+ *   [ left ] [  ZOOM CENTER ] [right]   45%
+ *   [  bottomLeft  ] [ bottomRight ]    25%
  *
- * Mobile (<640px) grid — 3 rows:
- *   [──────  top  ──────]  45%
- *   [ left ] [ right   ]  20%
- *   [────  ZOOM CENTER ─]  35%
+ * The center image scales to fill the sticky 100vh container (= viewport)
+ * as the user scrolls through 300vh. Surrounding images fade out with stagger.
+ * A location overlay fades in at the end.
  *
- * Scroll timeline (scrollYProgress 0→1 over 300vh):
- *   0.00–0.15  gallery at rest
- *   0.10–0.60  center scales 1→3.5 + pulls to viewport center; sides fade+slide
- *   0.65–0.85  info overlay fades in from below
+ * Implementation: CSS `position:sticky` handles pinning;
+ * GSAP ScrollTrigger with `scrub` drives the animation.
  */
+
+function cropUrl(url, w, h, face = '') {
+  const base = url.split('?')[0]
+  const faceParam = face ? `&crop=${face}` : ''
+  return `${base}?w=${w}&h=${h}&q=80&auto=format&fit=crop${faceParam}`
+}
+
 export default function GalleryZoomSection({ cafe }) {
-  const containerRef = useRef(null)
-
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ['start start', 'end end'],
-  })
-
-  // ── Side elements ──────────────────────────────────────────────
-  const sidesOpacity = useTransform(scrollYProgress, [0.15, 0.52], [1, 0])
-  const topY         = useTransform(scrollYProgress, [0.15, 0.50], [0, -90])
-  const leftX        = useTransform(scrollYProgress, [0.15, 0.50], [0, -110])
-  const rightX       = useTransform(scrollYProgress, [0.15, 0.50], [0, 110])
-
-  // ── Zoom center ────────────────────────────────────────────────
-  const zoomScale = useTransform(scrollYProgress, [0.10, 0.60], [1, 2
-  ])
-  // y correction computed from grid geometry so the element's center
-  // tracks toward the viewport center regardless of screen size.
-  const zoomY = useMotionValue(0)
+  const sectionRef    = useRef(null)
+  const stickyRef     = useRef(null)
+  const centerRef     = useRef(null)
+  const topRef        = useRef(null)
+  const leftRef       = useRef(null)
+  const rightRef      = useRef(null)
+  const bottomLeftRef = useRef(null)
+  const bottomRightRef= useRef(null)
+  const overlayRef    = useRef(null)
 
   useEffect(() => {
-    let correction = 200  // pixels; updated by computeCorrection()
+    const section = sectionRef.current
+    const sticky  = stickyRef.current
+    const center  = centerRef.current
+    if (!section || !sticky || !center) return
 
-    const computeCorrection = () => {
-      const vh  = window.innerHeight
-      const mob = window.innerWidth < 640
-      const pad = 12, gap = 4
-      const avail = vh - 2 * pad
-      // Element center Y within the sticky 100vh container:
-      const cellCenterY = mob
-        // rows: 45% | 20% | 35%
-        ? pad + avail * 0.45 + gap + avail * 0.20 + gap + avail * 0.35 / 2
-        // rows: 45% | 55%
-        : pad + avail * 0.45 + gap + avail * 0.55 / 2
-      correction = cellCenterY - vh / 2
+    let ctx = null
+
+    const init = () => {
+      ctx?.revert()
+
+      // ── Measure positions (relative values are scroll-position independent) ──
+      const sRect = sticky.getBoundingClientRect()
+      const cRect = center.getBoundingClientRect()
+
+      // Center of center-cell relative to sticky container
+      const relCX = cRect.left - sRect.left + cRect.width  / 2
+      const relCY = cRect.top  - sRect.top  + cRect.height / 2
+
+      // Scale needed to fill the sticky container (cover)
+      const finalScale = Math.max(sRect.width / cRect.width, sRect.height / cRect.height)
+
+      // Translation to bring center-cell's center to sticky container's center
+      const tx = sRect.width  / 2 - relCX
+      const ty = sRect.height / 2 - relCY
+
+      const surrounding = [
+        topRef.current,
+        leftRef.current,
+        rightRef.current,
+        bottomLeftRef.current,
+        bottomRightRef.current,
+      ].filter(Boolean)
+
+      ctx = gsap.context(() => {
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: section,
+            start:   'top top',
+            end:     'bottom bottom',
+            scrub:   1.5,
+          },
+        })
+
+        // 0→0.6: surrounding elements fade out and retract
+        tl.to(surrounding, {
+          opacity: 0,
+          scale:   0.9,
+          ease:    'none',
+          stagger: { amount: 0.2, from: 'edges' },
+        }, 0)
+
+        // 0→0.6: center zooms to fill viewport
+        tl.to(center, {
+          scale:        finalScale,
+          x:            tx,
+          y:            ty,
+          borderRadius: '0px',
+          ease:         'none',
+          duration:     0.6,
+        }, 0)
+
+        // 0.65→1: overlay fades in
+        tl.to(overlayRef.current, {
+          opacity:  1,
+          y:        0,
+          ease:     'none',
+          duration: 0.35,
+        }, 0.65)
+      })
     }
 
-    computeCorrection()
-    window.addEventListener('resize', computeCorrection, { passive: true })
-
-    // Subscribe to scroll progress and set y dynamically
-    const unsub = scrollYProgress.on('change', (p) => {
-      const t = Math.max(0, Math.min(1, (p - 0.10) / 0.50))
-      zoomY.set(-t * correction)
+    const rafId = requestAnimationFrame(init)
+    const ro = new ResizeObserver(() => {
+      ScrollTrigger.getAll().forEach(t => t.kill())
+      requestAnimationFrame(init)
     })
+    ro.observe(sticky)
 
     return () => {
-      window.removeEventListener('resize', computeCorrection)
-      unsub()
+      cancelAnimationFrame(rafId)
+      ro.disconnect()
+      ctx?.revert()
     }
-  }, [scrollYProgress, zoomY])
+  }, [])
 
-  // ── Info overlay ───────────────────────────────────────────────
-  const infoOpacity = useTransform(scrollYProgress, [0.65, 0.85], [0, 1])
-  const infoY       = useTransform(scrollYProgress, [0.65, 0.85], [72, 0])
+  const hero     = cafe.heroImage
+  const interior = cafe.interiorImage
 
   return (
-    <div ref={containerRef} style={{ height: '300vh', position: 'relative' }}>
+    // 300vh scroll container — CSS sticky handles the pin
+    <div ref={sectionRef} style={{ height: '300vh', position: 'relative' }}>
 
-      {/* Responsive grid CSS — scoped class names to avoid collisions */}
-      <style>{`
-        .gzs-grid {
-          display: grid;
-          grid-template-columns: 1fr 2fr 1fr;
-          grid-template-rows: 45% 55%;
-          gap: 4px;
-          height: 100%;
-          padding: 12px;
-        }
-        .gzs-cell   { position: relative; overflow: hidden; border-radius: 3px; }
-        .gzs-top    { grid-column: 1 / -1; grid-row: 1; }
-        .gzs-left   { grid-column: 1;      grid-row: 2; }
-        .gzs-zoom   { grid-column: 2;      grid-row: 2; position: relative; border-radius: 3px; z-index: 10; will-change: transform; }
-        .gzs-right  { grid-column: 3;      grid-row: 2; }
+      {/* Sticky viewport */}
+      <div
+        ref={stickyRef}
+        style={{
+          position: 'sticky',
+          top:      0,
+          height:   '100vh',
+          overflow: 'hidden',
+          background: '#111',
+        }}
+      >
+        {/* ── Bento grid ────────────────────────────────────────── */}
+        <div style={{
+          display:             'grid',
+          gridTemplateColumns: '1fr 2fr 1fr',
+          gridTemplateRows:    '30% 45% 25%',
+          gap:                 '3px',
+          padding:             '3px',
+          height:              '100%',
+        }}>
 
-        @media (max-width: 639px) {
-          .gzs-grid  { grid-template-columns: 1fr 1fr; grid-template-rows: 45% 20% 35%; }
-          .gzs-left  { grid-column: 1; grid-row: 2; }
-          .gzs-right { grid-column: 2; grid-row: 2; }
-          .gzs-zoom  { grid-column: 1 / -1; grid-row: 3; }
-        }
-      `}</style>
+          {/* Top — full width */}
+          <div
+            ref={topRef}
+            style={{ gridColumn: '1 / -1', gridRow: '1', position: 'relative', overflow: 'hidden', borderRadius: '2px' }}
+          >
+            <Image src={cropUrl(hero, 1400, 420)} alt="" fill className="object-cover" sizes="100vw" />
+          </div>
 
-      {/* ── Sticky viewport ───────────────────────────────────── */}
-      <div style={{ position: 'sticky', top: 0, height: '100vh', overflow: 'hidden', background: '#111' }}>
-        <div className="gzs-grid">
+          {/* Left */}
+          <div
+            ref={leftRef}
+            style={{ gridColumn: '1', gridRow: '2', position: 'relative', overflow: 'hidden', borderRadius: '2px' }}
+          >
+            <Image src={cropUrl(interior, 600, 700)} alt="" fill className="object-cover object-left" sizes="22vw" />
+          </div>
 
-          {/* Top — full width, slides up + fades */}
-          <motion.div
-            className="gzs-cell gzs-top"
-            style={{ opacity: sidesOpacity, y: topY }}
+          {/* ★ ZOOM CENTER */}
+          <div
+            ref={centerRef}
+            style={{
+              gridColumn:      '2',
+              gridRow:         '2',
+              position:        'relative',
+              overflow:        'hidden',
+              borderRadius:    '2px',
+              willChange:      'transform',
+              transformOrigin: 'center center',
+            }}
           >
             <Image
-              src={cafe.heroImage}
-              alt=""
-              fill
-              className="object-cover object-center"
-              sizes="100vw"
-              priority
-            />
-          </motion.div>
-
-          {/* Left — slides left + fades */}
-          <motion.div
-            className="gzs-cell gzs-left"
-            style={{ opacity: sidesOpacity, x: leftX }}
-          >
-            <Image
-              src={cafe.interiorImage}
-              alt=""
-              fill
-              className="object-cover object-left-bottom"
-              sizes="(max-width:639px)50vw, 22vw"
-            />
-          </motion.div>
-
-          {/* ZOOM CENTER — no overflow:hidden, expands to fill viewport */}
-          <motion.div
-            className="gzs-zoom"
-            style={{ scale: zoomScale, y: zoomY, transformOrigin: 'center center' }}
-          >
-            <Image
-              src="/geminicafe.jpg"
-              alt={`${cafe.name} interior`}
+              src={cropUrl(hero, 1000, 700)}
+              alt={`${cafe.name}`}
               fill
               className="object-cover"
-              sizes="(max-width:639px)100vw, 43vw"
+              sizes="(max-width:768px)100vw, 44vw"
+              priority
             />
-          </motion.div>
+          </div>
 
-          {/* Right — slides right + fades */}
-          <motion.div
-            className="gzs-cell gzs-right"
-            style={{ opacity: sidesOpacity, x: rightX }}
+          {/* Right */}
+          <div
+            ref={rightRef}
+            style={{ gridColumn: '3', gridRow: '2', position: 'relative', overflow: 'hidden', borderRadius: '2px' }}
           >
-            <Image
-              src={cafe.interiorImage}
-              alt=""
-              fill
-              className="object-cover object-right-top"
-              sizes="(max-width:639px)50vw, 22vw"
-            />
-          </motion.div>
+            <Image src={cropUrl(interior, 600, 700, 'right')} alt="" fill className="object-cover object-right" sizes="22vw" />
+          </div>
+
+          {/* Bottom left */}
+          <div
+            ref={bottomLeftRef}
+            style={{ gridColumn: '1 / 3', gridRow: '3', position: 'relative', overflow: 'hidden', borderRadius: '2px' }}
+          >
+            <Image src={cropUrl(hero, 900, 400, 'bottom')} alt="" fill className="object-cover object-bottom" sizes="66vw" />
+          </div>
+
+          {/* Bottom right */}
+          <div
+            ref={bottomRightRef}
+            style={{ gridColumn: '3', gridRow: '3', position: 'relative', overflow: 'hidden', borderRadius: '2px' }}
+          >
+            <Image src={cropUrl(interior, 600, 400, 'bottom')} alt="" fill className="object-cover" sizes="22vw" />
+          </div>
 
         </div>
 
-        {/* ── Info overlay (z-index 20 → above zoomed image) ─── */}
-        <motion.div
+        {/* ── Info overlay (fades in after zoom completes) ──────── */}
+        <div
+          ref={overlayRef}
           style={{
-            opacity:         infoOpacity,
-            y:               infoY,
-            position:        'absolute',
-            inset:           0,
-            zIndex:          20,
-            display:         'flex',
-            flexDirection:   'column',
-            alignItems:      'center',
-            justifyContent:  'flex-end',
-            paddingBottom:   72,
-            background:      'linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.45) 45%, transparent 100%)',
+            position:       'absolute',
+            inset:          0,
+            zIndex:         20,
+            display:        'flex',
+            flexDirection:  'column',
+            alignItems:     'center',
+            justifyContent: 'flex-end',
+            paddingBottom:  72,
+            background:     'linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.45) 45%, transparent 100%)',
+            opacity:        0,
+            transform:      'translateY(48px)',
           }}
         >
           <div style={{ textAlign: 'center', maxWidth: 520, padding: '0 24px' }}>
@@ -202,16 +253,14 @@ export default function GalleryZoomSection({ cafe }) {
               <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
                 {cafe.hours.slice(0, 3).map((h) => (
                   <div key={h.days}>
-                    <p className="font-sans text-[10px] tracking-[0.2em] uppercase text-brass/70">
-                      {h.days}
-                    </p>
+                    <p className="font-sans text-[10px] tracking-[0.2em] uppercase text-brass/70">{h.days}</p>
                     <p className="font-serif text-cream/90 text-sm">{h.time}</p>
                   </div>
                 ))}
               </div>
             )}
           </div>
-        </motion.div>
+        </div>
 
       </div>
     </div>
