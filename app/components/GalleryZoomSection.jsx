@@ -63,24 +63,12 @@ function pickImages(heroUrl, interiorUrl) {
 }
 
 /*
- * Layout — dense cluster, center at scale 1.0 (36vw × 27vw visual), surrounds at scale 0.8
- *
- * Visual center bounds (scale 1.0): left=50%-18vw, right=50%+18vw, top=50vh-13.5vw, bottom=50vh+13.5vw
- * Each surround placed with ~1rem gap from center's visual edge.
- * No border-radius anywhere — sharp panel aesthetic.
- *
- *         ┌─────────────┐     TOP: 22vw×12.375vw  scale 0.8  CSS top: 50vh-24.5vw-1rem
- *         │     TOP     │
- *         └─────────────┘
- *  ┌────┐ ┌──────────────────┐ ┌──┐
- *  │LEFT│ │     CENTER       │ │RT│  LEFT: 18vw×24vw  scale 0.8  CSS left: 50%-34vw-1rem
- *  │    │ │  (hero, scale 1) │ │  │  RIGHT: 14vw×21vw scale 0.8  CSS left: 50%+17vw+1rem
- *  └────┘ └──────────────────┘ └──┘
- *         ┌─────────────────────┐   BOTTOM: 26vw×14.625vw scale 0.8  CSS top: 50vh+12vw+1rem
- *         │       BOTTOM        │
- *         └─────────────────────┘
- *
- * Animation: surrounds slide outward + fade (NO zoom). Center alone grows to fill viewport.
+ * Layout — tight cluster, ~20px gap on all sides, no scale offset on surrounds.
+ * CENTER 36vw×27vw. Surrounds ≈65% of center width, positioned for ~1.5vw gap.
+ *   TOP 24vw×13.5vw  top: 50vh-28.5vw  left: 50%-12vw
+ *   LEFT 20vw×26.7vw  top: 50vh-13.35vw  left: 50%-39.5vw
+ *   RIGHT 18vw×27vw  top: 50vh-13.5vw  left: 50%+19.5vw
+ *   BOTTOM 24vw×13.5vw  top: 50vh+15vw  left: 50%-12vw
  */
 export default function GalleryZoomSection({ cafe }) {
   const sectionRef = useRef(null)
@@ -118,11 +106,10 @@ export default function GalleryZoomSection({ cafe }) {
       const slideH = sRect.width  * 0.28
 
       ctx = gsap.context(() => {
-        // Initial state: surrounds large and clearly readable, center at full CSS size
-        gsap.set(topRef.current,    { scale: 0.8, opacity: 1, transformOrigin: 'center center' })
-        gsap.set(leftRef.current,   { scale: 0.8, opacity: 1, transformOrigin: 'center center' })
-        gsap.set(rightRef.current,  { scale: 0.8, opacity: 1, transformOrigin: 'center center' })
-        gsap.set(bottomRef.current, { scale: 0.8, opacity: 1, transformOrigin: 'center center' })
+        gsap.set(topRef.current,    { scale: 1.0, opacity: 1, transformOrigin: 'center center' })
+        gsap.set(leftRef.current,   { scale: 1.0, opacity: 1, transformOrigin: 'center center' })
+        gsap.set(rightRef.current,  { scale: 1.0, opacity: 1, transformOrigin: 'center center' })
+        gsap.set(bottomRef.current, { scale: 1.0, opacity: 1, transformOrigin: 'center center' })
         gsap.set(center, { scale: 1.0, opacity: 1, transformOrigin: 'center center' })
 
         const tl = gsap.timeline({
@@ -190,52 +177,38 @@ export default function GalleryZoomSection({ cafe }) {
       >
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
 
-          {/*
-           * TOP — 16:9, 22vw, scale 0.8 → visual 17.6vw × 9.9vw
-           * Visual bottom lands 1rem above center top (50vh-13.5vw)
-           * CSS top: 50vh - 24.5vw - 1rem
-           */}
           <div
             ref={topRef}
             style={{
               position:    'absolute',
-              top:         'calc(50vh - 24.5vw - 1rem)',
-              left:        'calc(50% - 11vw)',
-              width:       '22vw',
+              top:         'calc(50vh - 28.5vw)',
+              left:        'calc(50% - 12vw)',
+              width:       '24vw',
               aspectRatio: '16/9',
               overflow:    'hidden',
               borderRadius: 0,
               willChange:  'opacity, transform',
             }}
           >
-            <Image src={imgSrc(imgs.top, 800, 450)} alt="" fill style={{ objectFit: 'cover' }} sizes="22vw" />
+            <Image src={imgSrc(imgs.top, 960, 540)} alt="" fill style={{ objectFit: 'cover' }} sizes="24vw" />
           </div>
 
-          {/*
-           * LEFT — 3:4, 18vw, scale 0.8 → visual 14.4vw × 19.2vw
-           * Visual right lands 1rem left of center left (50%-18vw)
-           * CSS left: 50% - 34vw - 1rem
-           */}
           <div
             ref={leftRef}
             style={{
               position:    'absolute',
-              top:         'calc(50vh - 12vw)',
-              left:        'calc(50% - 34vw - 1rem)',
-              width:       '18vw',
+              top:         'calc(50vh - 13.35vw)',
+              left:        'calc(50% - 39.5vw)',
+              width:       '20vw',
               aspectRatio: '3/4',
               overflow:    'hidden',
               borderRadius: 0,
               willChange:  'opacity, transform',
             }}
           >
-            <Image src={imgSrc(imgs.left, 560, 748)} alt="" fill style={{ objectFit: 'cover' }} sizes="18vw" />
+            <Image src={imgSrc(imgs.left, 600, 800)} alt="" fill style={{ objectFit: 'cover' }} sizes="20vw" />
           </div>
 
-          {/*
-           * CENTER — 4:3, 36vw (hero image / zoom protagonist)
-           * Wrapper positions inner div exactly at (50%, 50vh)
-           */}
           <div
             style={{
               position: 'absolute',
@@ -252,7 +225,7 @@ export default function GalleryZoomSection({ cafe }) {
                 borderRadius:    0,
                 willChange:      'transform',
                 transformOrigin: 'center center',
-                boxShadow:       '0 24px 64px rgba(0,0,0,0.18)',
+                boxShadow:       'none',
               }}
             >
               <Image
@@ -266,46 +239,36 @@ export default function GalleryZoomSection({ cafe }) {
             </div>
           </div>
 
-          {/*
-           * RIGHT — 2:3, 14vw, scale 0.8 → visual 11.2vw × 16.8vw
-           * Visual left lands 1rem right of center right (50%+18vw)
-           * CSS left: 50% + 17vw + 1rem
-           */}
           <div
             ref={rightRef}
             style={{
               position:    'absolute',
-              top:         'calc(50vh - 10.5vw)',
-              left:        'calc(50% + 17vw + 1rem)',
-              width:       '14vw',
+              top:         'calc(50vh - 13.5vw)',
+              left:        'calc(50% + 19.5vw)',
+              width:       '18vw',
               aspectRatio: '2/3',
               overflow:    'hidden',
               borderRadius: 0,
               willChange:  'opacity, transform',
             }}
           >
-            <Image src={imgSrc(imgs.right, 480, 720)} alt="" fill style={{ objectFit: 'cover' }} sizes="14vw" />
+            <Image src={imgSrc(imgs.right, 540, 810)} alt="" fill style={{ objectFit: 'cover' }} sizes="18vw" />
           </div>
 
-          {/*
-           * BOTTOM — 16:9, 26vw, scale 0.8 → visual 20.8vw × 11.7vw
-           * Visual top lands 1rem below center bottom (50vh+13.5vw)
-           * CSS top: 50vh + 12vw + 1rem
-           */}
           <div
             ref={bottomRef}
             style={{
               position:    'absolute',
-              top:         'calc(50vh + 12vw + 1rem)',
-              left:        'calc(50% - 13vw)',
-              width:       '26vw',
+              top:         'calc(50vh + 15vw)',
+              left:        'calc(50% - 12vw)',
+              width:       '24vw',
               aspectRatio: '16/9',
               overflow:    'hidden',
               borderRadius: 0,
               willChange:  'opacity, transform',
             }}
           >
-            <Image src={imgSrc(imgs.bottom, 900, 506)} alt="" fill style={{ objectFit: 'cover' }} sizes="26vw" />
+            <Image src={imgSrc(imgs.bottom, 960, 540)} alt="" fill style={{ objectFit: 'cover' }} sizes="24vw" />
           </div>
 
         </div>
