@@ -12326,5 +12326,1385 @@
     "mapEmbed": "https://maps.google.com/maps?q=5-ch%C5%8Dme-2-14%20Higashimura%2C%20Imabari%2C%20Ehime%20799-1506%2C%20Japan&output=embed",
     "heroImage": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=1600&q=80",
     "interiorImage": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80"
+  },
+  "5-coffee-market": {
+    "name": "5 COFFEE MARKET",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 1-chōme-6-17 Ondochō Tonoko",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "1-chōme-6-17 Ondochō Tonoko",
+      "line2": "Kure",
+      "city": "Hiroshima 737-1217, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.0,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。182件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=1-ch%C5%8Dme-6-17%20Ondoch%C5%8D%20Tonoko%2C%20Kure%2C%20Hiroshima%20737-1217%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800&q=80"
+  },
+  "asuka": {
+    "name": "Asuka",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · Japan",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "Japan",
+      "line2": "〒737-0046 Hiroshima",
+      "city": "Kure, Nakadōri, 3-chōme−3−３２ 山一不動産",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.2,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。154件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=Japan%2C%20%E3%80%92737-0046%20Hiroshima%2C%20Kure%2C%20Nakad%C5%8Dri%2C%203-ch%C5%8Dme%E2%88%923%E2%88%92%EF%BC%93%EF%BC%92%20%E5%B1%B1%E4%B8%80%E4%B8%8D%E5%8B%95%E7%94%A3&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80"
+  },
+  "-7": {
+    "name": "ウルルカフェ",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 6-chōme-2-11 Agachūō",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "6-chōme-2-11 Agachūō",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0003, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。23件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=6-ch%C5%8Dme-2-11%20Agach%C5%AB%C5%8D%2C%20Kure%2C%20Hiroshima%20737-0003%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800&q=80"
+  },
+  "-8": {
+    "name": "カーム·カフェ",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 2-chōme-7-1 Nakadōri",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "2-chōme-7-1 Nakadōri",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0046, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 3.9,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。69件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=2-ch%C5%8Dme-7-1%20Nakad%C5%8Dri%2C%20Kure%2C%20Hiroshima%20737-0046%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80"
+  },
+  "-9": {
+    "name": "くれまち珈琲 とうせんば",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 7-chōme-2-17 Hondōri",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "7-chōme-2-17 Hondōri",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0045, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.2,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。29件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=7-ch%C5%8Dme-2-17%20Hond%C5%8Dri%2C%20Kure%2C%20Hiroshima%20737-0045%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=80"
+  },
+  "-10": {
+    "name": "食堂 とっくん",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 1344 Kamagarichōmukai",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "1344 Kamagarichōmukai",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0311, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.1,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。43件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=1344%20Kamagarich%C5%8Dmukai%2C%20Kure%2C%20Hiroshima%20737-0311%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=800&q=80"
+  },
+  "restaurant-hana-mizuki": {
+    "name": "Restaurant Hana Mizuki",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 2868-2 Kamagarichō Ōura",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "2868-2 Kamagarichō Ōura",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0402, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.2,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。172件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=2868-2%20Kamagarich%C5%8D%20%C5%8Cura%2C%20Kure%2C%20Hiroshima%20737-0402%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80"
+  },
+  "coffeekan-mori": {
+    "name": "Coffeekan Mori",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 3-chōme-10-8 Waki",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "3-chōme-10-8 Waki",
+      "line2": "Kuga District",
+      "city": "Yamaguchi 740-0061, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.0,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。33件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=3-ch%C5%8Dme-10-8%20Waki%2C%20Kuga%20District%2C%20Yamaguchi%20740-0061%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=80"
+  },
+  "nicoli-kitchen": {
+    "name": "Nicoli Kitchen",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · Japan",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "Japan",
+      "line2": "〒740-0018 Yamaguchi",
+      "city": "Iwakuni, Marifumachi, 2-chōme−4−２１ 都志見 ビル ２F",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.0,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。96件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=Japan%2C%20%E3%80%92740-0018%20Yamaguchi%2C%20Iwakuni%2C%20Marifumachi%2C%202-ch%C5%8Dme%E2%88%924%E2%88%92%EF%BC%92%EF%BC%91%20%E9%83%BD%E5%BF%97%E8%A6%8B%20%E3%83%93%E3%83%AB%20%EF%BC%92F&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80"
+  },
+  "18store": {
+    "name": "18STORE",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 岩国市尾津町5丁目11-1 岩国市地方卸売市場内 18STORE",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "岩国市尾津町5丁目11-1 岩国市地方卸売市場内 18STORE",
+      "line2": "卸売市場",
+      "city": "内, ５丁目-１１-1 尾津町 岩国市 山口県 740-0032, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.2,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。64件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=%E5%B2%A9%E5%9B%BD%E5%B8%82%E5%B0%BE%E6%B4%A5%E7%94%BA5%E4%B8%81%E7%9B%AE11-1%20%E5%B2%A9%E5%9B%BD%E5%B8%82%E5%9C%B0%E6%96%B9%E5%8D%B8%E5%A3%B2%E5%B8%82%E5%A0%B4%E5%86%85%2018STORE%2C%20%E5%8D%B8%E5%A3%B2%E5%B8%82%E5%A0%B4%2C%20%E5%86%85%2C%20%EF%BC%95%E4%B8%81%E7%9B%AE-%EF%BC%91%EF%BC%91-1%20%E5%B0%BE%E6%B4%A5%E7%94%BA%20%E5%B2%A9%E5%9B%BD%E5%B8%82%20%E5%B1%B1%E5%8F%A3%E7%9C%8C%20740-0032%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=800&q=80"
+  },
+  "smaak-cafekitchen": {
+    "name": "smaak Cafe&Kitchen",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 1-chōme-13-18 Hirohonmachi",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "1-chōme-13-18 Hirohonmachi",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0125, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.4,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。89件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=1-ch%C5%8Dme-13-18%20Hirohonmachi%2C%20Kure%2C%20Hiroshima%20737-0125%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=800&q=80"
+  },
+  "huong-que-quan": {
+    "name": "Hương Quê Quán",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · ３丁目-9-102 Hironakachō",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "３丁目-9-102 Hironakachō",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0131, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.2,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。22件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=%EF%BC%93%E4%B8%81%E7%9B%AE-9-102%20Hironakach%C5%8D%2C%20Kure%2C%20Hiroshima%20737-0131%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80"
+  },
+  "hide-out": {
+    "name": "Hide Out 空",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 3-chōme-19-21 Hirohonmachi",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "3-chōme-19-21 Hirohonmachi",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0125, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。63件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=3-ch%C5%8Dme-19-21%20Hirohonmachi%2C%20Kure%2C%20Hiroshima%20737-0125%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
+  },
+  "bun": {
+    "name": "Bun",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 14-9 Yoshiuraikenourachō",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "14-9 Yoshiuraikenourachō",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0844, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.2,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。58件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=14-9%20Yoshiuraikenourach%C5%8D%2C%20Kure%2C%20Hiroshima%20737-0844%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
+  },
+  "-11": {
+    "name": "サントス",
+    "tagline": "広島にある、こだわりのカフェ。",
+    "eyebrow": "広島 · 2-chōme-5-18 Nakadōri",
+    "menuSubtitle": "季節の食材とスペシャルティコーヒーで、毎日を少し豊かに。",
+    "address": {
+      "line1": "2-chōme-5-18 Nakadōri",
+      "line2": "Kure",
+      "city": "Hiroshima 737-0046, Japan",
+      "hint": ""
+    },
+    "phone": "",
+    "instagram": null,
+    "rating": 4.3,
+    "hours": [
+      {
+        "days": "月曜〜金曜",
+        "time": "8:00 am – 5:00 pm"
+      },
+      {
+        "days": "土・日曜",
+        "time": "9:00 am – 4:00 pm"
+      }
+    ],
+    "wineNote": null,
+    "menu": [
+      {
+        "title": "コーヒー",
+        "icon": "☕",
+        "items": [
+          {
+            "name": "エスプレッソ",
+            "desc": "シングルオリジン",
+            "price": ""
+          },
+          {
+            "name": "フラットホワイト",
+            "desc": "なめらかなマイクロフォーム",
+            "price": ""
+          },
+          {
+            "name": "アイスコーヒー",
+            "desc": "12時間コールドブリュー",
+            "price": ""
+          },
+          {
+            "name": "オーツラテ",
+            "desc": "植物性ミルク使用",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "title": "フード",
+        "icon": "🥐",
+        "items": [
+          {
+            "name": "クロワッサン",
+            "desc": "毎朝焼き立て",
+            "price": ""
+          },
+          {
+            "name": "バタートースト",
+            "desc": "厚切りトーストにバター",
+            "price": ""
+          },
+          {
+            "name": "スコーン",
+            "desc": "クリームとジャム添え",
+            "price": ""
+          },
+          {
+            "name": "本日のケーキ",
+            "desc": "スタッフにお尋ねください",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "menuNote": "メニューは季節により変更されます。スタッフにお尋ねください。",
+    "transport": [],
+    "reviews": [
+      {
+        "author": "Googleレビュー",
+        "text": "地元で人気のカフェ。112件以上のレビューが集まる実力店。コーヒーが絶品でスタッフも親切です。",
+        "rating": 4
+      }
+    ],
+    "mapEmbed": "https://maps.google.com/maps?q=2-ch%C5%8Dme-5-18%20Nakad%C5%8Dri%2C%20Kure%2C%20Hiroshima%20737-0046%2C%20Japan&output=embed",
+    "heroImage": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1600&q=80",
+    "interiorImage": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800&q=80"
   }
 }
