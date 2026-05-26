@@ -1,10 +1,15 @@
 
+-10
 -2
 -3
 -4
 -5
 -6
+-7
+-8
+-9
 16beans-espresso-bar
+5-coffee-market
 999
 airport-west-coffee-co
 akarenga
@@ -12,6 +17,7 @@ alice
 an-eating-house-chirimen
 angelars-cafe
 aspendale-cafe
+asuka
 au79-cafe
 batch-espresso
 betsy-jane
@@ -56,6 +62,7 @@ coffee-cove
 coffee-home-cafe-seaford
 coffee-hq
 coffee-kan-arrow
+coffeekan-mori
 crema-cafe
 culpa-espresso
 culpa-espresso-cafe
@@ -100,6 +107,7 @@ pacific-mixmonte-coffee-cafe
 pascoed-coffee
 poolhouse-coffee
 prickly-pear
+restaurant-hana-mizuki
 seaside-cafe-beacon
 seven8-coffee
 shima-no-eki-mamegashima
